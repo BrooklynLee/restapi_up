@@ -2,22 +2,42 @@ from django.db import models
 from core.models import CoreModel
 
 
+class FeatureType(models.Model):
+    type_name = models.CharField(max_length=30)
+    # parent = models.ForeignKey("self", on_delete=models.CASCADE, blank=True, null=True)
+
+    # class Meta:
+    #     unique_together = ["category_name"]
+
+    def __str__(self):
+        return self.type_name
+
+
+class Tag(models.Model):
+    name = models.CharField(max_length=32, verbose_name="태그명")
+    registered_date = models.DateTimeField(auto_now_add=True, verbose_name="등록시간")
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        db_table = "feature_tag"
+
+
 class Feature(CoreModel):
-    # id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=140, primary_key=True)
-    address = models.CharField(max_length=140)
-    price = models.IntegerField(help_text="USD per night")
-    beds = models.IntegerField(default=1)
-    lat = models.DecimalField(max_digits=10, decimal_places=6)
-    lng = models.DecimalField(max_digits=10, decimal_places=6)
-    bedrooms = models.IntegerField(default=1)
-    bathrooms = models.IntegerField(default=1)
-    check_in = models.TimeField(default="00:00:00")
-    check_out = models.TimeField(default="00:00:00")
-    instant_book = models.BooleanField(default=False)
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=140)
+    desc = models.TextField(blank=True)
+    # category = models.CharField(max_length=140)
+    link = models.CharField(max_length=140, help_text="Confluence Link")
+    feature_type = models.ForeignKey(FeatureType, on_delete=models.CASCADE, null=True)
+    is_active = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     user = models.ForeignKey(
         "users.User", on_delete=models.CASCADE, related_name="features"
     )
+    tag = models.ManyToManyField("Tag", null=True)
 
     def __str__(self):
         return self.name

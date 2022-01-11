@@ -14,3 +14,16 @@ class FeatureAdmin(admin.ModelAdmin):
 @admin.register(models.Photo)
 class PhotoAdmin(admin.ModelAdmin):
     pass
+
+
+@admin.register(models.FeatureType)
+class FeatureTypeAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(models.Tag)
+class TagAdmin(admin.ModelAdmin):
+    list_display = (
+        "name",
+        "registered_date",
+    )

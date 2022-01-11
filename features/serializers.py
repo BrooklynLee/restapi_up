@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from users.serializers import UserSerializer
-from .models import Feature, Photo
+from .models import Feature, Photo, FeatureType, Tag
 
 
 class PhotoSerializer(serializers.ModelSerializer):
@@ -9,11 +9,25 @@ class PhotoSerializer(serializers.ModelSerializer):
         exclude = ("feature",)
 
 
+class FeatureTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FeatureType
+        exclude = ("id",)
+
+
+class TagSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Tag
+        exclude = ("registered_date",)
+
+
 class FeatureSerializer(serializers.ModelSerializer):
 
     is_fav = serializers.SerializerMethodField()
     user = UserSerializer(read_only=True)
     photos = PhotoSerializer(read_only=True, many=True)
+    feature_type = FeatureTypeSerializer(read_only=True)
+    tag = TagSerializer(read_only=True, many=True)
 
     class Meta:
         model = Feature
@@ -21,14 +35,14 @@ class FeatureSerializer(serializers.ModelSerializer):
         read_only_fields = ("user", "id", "created", "updated")
 
     def validate(self, data):
-        if self.instance:
-            check_in = data.get("check_in", self.instance.check_in)
-            check_out = data.get("check_out", self.instance.check_out)
-        else:
-            check_in = data.get("check_in")
-            check_out = data.get("check_out")
-        if check_in == check_out:
-            raise serializers.ValidationError("Not enough time between changes")
+        # if self.instance:
+        #     check_in = data.get("check_in", self.instance.check_in)
+        #     check_out = data.get("check_out", self.instance.check_out)
+        # else:
+        #     check_in = data.get("check_in")
+        #     check_out = data.get("check_out")
+        # if check_in == check_out:
+        #     raise serializers.ValidationError("Not enough time between changes")
         return data
 
     def get_is_fav(self, obj):
