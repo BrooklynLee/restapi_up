@@ -1,6 +1,7 @@
 from rest_framework import serializers
+from .models import Feature, Photo, FeatureType
 from users.serializers import UserSerializer
-from .models import Feature, Photo, FeatureType, Tag
+from tags.serializers import TagSerializer
 
 
 class PhotoSerializer(serializers.ModelSerializer):
@@ -13,12 +14,6 @@ class FeatureTypeSerializer(serializers.ModelSerializer):
     class Meta:
         model = FeatureType
         exclude = ("id",)
-
-
-class TagSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Tag
-        exclude = ("registered_date",)
 
 
 class FeatureSerializer(serializers.ModelSerializer):

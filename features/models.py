@@ -13,31 +13,20 @@ class FeatureType(models.Model):
         return self.type_name
 
 
-class Tag(models.Model):
-    name = models.CharField(max_length=32, verbose_name="태그명")
-    registered_date = models.DateTimeField(auto_now_add=True, verbose_name="등록시간")
-
-    def __str__(self):
-        return self.name
-
-    class Meta:
-        db_table = "feature_tag"
-
-
 class Feature(CoreModel):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=140)
     desc = models.TextField(blank=True)
     # category = models.CharField(max_length=140)
     link = models.CharField(max_length=140, help_text="Confluence Link")
-    feature_type = models.ForeignKey(FeatureType, on_delete=models.CASCADE, null=True)
+    feature_type = models.ForeignKey("FeatureType", on_delete=models.CASCADE, null=True)
     is_active = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     user = models.ForeignKey(
         "users.User", on_delete=models.CASCADE, related_name="features"
     )
-    tag = models.ManyToManyField("Tag", null=True)
+    tag = models.ManyToManyField("tags.Tag", null=True)
 
     def __str__(self):
         return self.name

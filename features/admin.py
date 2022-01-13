@@ -21,9 +21,3 @@ class FeatureTypeAdmin(admin.ModelAdmin):
     pass
 
 
-@admin.register(models.Tag)
-class TagAdmin(admin.ModelAdmin):
-    list_display = (
-        "name",
-        "registered_date",
-    )

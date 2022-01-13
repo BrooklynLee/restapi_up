@@ -1,5 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from rest_framework.decorators import action
+
+# from rest_framework.decorators import action
 from rest_framework import permissions
 from .models import Feature
 from .serializers import FeatureSerializer

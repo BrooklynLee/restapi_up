@@ -44,6 +44,8 @@ PROJECT_APPS = [
     "core.apps.CoreConfig",
     "users.apps.UsersConfig",
     "features.apps.FeaturesConfig",
+    "tags.apps.TagsConfig",
+
 ]
 
 THIRD_PARTY_APPS = [
