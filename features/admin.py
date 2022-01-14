@@ -7,12 +7,12 @@ class FeatureAdmin(admin.ModelAdmin):
 
     list_display = (
         "name",
-        "photo_number",
+        "file_number",
     )
 
 
-@admin.register(models.Photo)
-class PhotoAdmin(admin.ModelAdmin):
+@admin.register(models.File)
+class FileAdmin(admin.ModelAdmin):
     pass
 
 
@@ -21,3 +21,11 @@ class FeatureTypeAdmin(admin.ModelAdmin):
     pass
 
 
+@admin.register(models.KeyType)
+class KeyTypeAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(models.StatusType)
+class StatusTypeAdmin(admin.ModelAdmin):
+    pass
