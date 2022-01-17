@@ -23,28 +23,26 @@ class KeyType(CoreModel):
         return self.key_type
 
 
-class File(CoreModel):
-    id = models.AutoField(primary_key=True)
-    file = models.FileField()
-    feature = models.ForeignKey(
-        "features.Feature", related_name="files", on_delete=models.CASCADE
-    )
-    caption = models.CharField(max_length=140)
+# class File(CoreModel):
+#     id = models.AutoField(primary_key=True)
+#     file = models.FileField()
+#     feature = models.ForeignKey(
+#         "features.Feature", related_name="files", on_delete=models.CASCADE
+#     )
+#     caption = models.CharField(max_length=140)
 
-    def __str__(self):
-        return self.feature.name
+#     def __str__(self):
+#         return self.feature.name
 
 
 class Feature(CoreModel):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=140)
     desc = models.TextField(blank=True)
-    # category = models.CharField(max_length=140)
     link = models.CharField(max_length=140, help_text="Confluence Link")
     feature_type = models.ForeignKey(
         "FeatureType", on_delete=models.DO_NOTHING, null=True
     )
-    is_active = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     user = models.ForeignKey(
@@ -56,15 +54,19 @@ class Feature(CoreModel):
     key_type = models.ForeignKey("KeyType", on_delete=models.DO_NOTHING, null=True)
     database_name = models.CharField(max_length=140)
     table_name = models.CharField(max_length=140)
-    tag = models.ManyToManyField("tags.Tag", null=True)
+    tag = models.ManyToManyField("tags.Tag", null=True, blank=True)
+    service = models.ManyToManyField("services.Service", null=True, blank=True)
+    file = models.FileField(null=True, blank=True)
+    is_active = models.BooleanField(default=False)
+    is_recommend = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
 
-    def file_number(self):
-        return self.files.count()
+    # def file_number(self):
+    #     return self.files.count()
 
-    file_number.short_description = "File Count"
+    # file_number.short_description = "File Count"
 
     class Meta:
         ordering = ["-pk"]

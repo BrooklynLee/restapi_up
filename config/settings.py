@@ -46,6 +46,9 @@ PROJECT_APPS = [
     "features.apps.FeaturesConfig",
     "tags.apps.TagsConfig",
     "columns.apps.ColumnsConfig",
+    "notices.apps.NoticesConfig",
+    "usecases.apps.UsecasesConfig",
+    "services.apps.ServicesConfig",
 ]
 
 THIRD_PARTY_APPS = [

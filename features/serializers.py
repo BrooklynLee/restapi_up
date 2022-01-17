@@ -1,14 +1,17 @@
+from notices.serializers import NoticeSerializer
 from rest_framework import serializers
-from .models import Feature, KeyType, File, FeatureType, StatusType
+from services.serializers import ServiceSerializer
+from usecases.serializers import UsecaseSerializer
+from .models import Feature, KeyType, FeatureType, StatusType
 from users.serializers import UserSerializer
 from tags.serializers import TagSerializer
 from columns.serializers import ColumnSerializer
 
 
-class FileSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = File
-        exclude = ("caption",)
+# class FileSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = File
+#         exclude = ("caption",)
 
 
 class FeatureTypeSerializer(serializers.ModelSerializer):
@@ -33,12 +36,15 @@ class FeatureSerializer(serializers.ModelSerializer):
 
     is_fav = serializers.SerializerMethodField()
     user = UserSerializer(read_only=True)
-    file = FileSerializer(read_only=True, many=True)
+    # file = FileSerializer(read_only=True, many=True)
     feature_type = FeatureTypeSerializer(read_only=True)
     key_type = KeyTypeSerializer(read_only=True)
     status_type = StatusTypeSerializer(read_only=True)
     tag = TagSerializer(read_only=True, many=True)
     columns = ColumnSerializer(read_only=True, many=True)
+    notices = NoticeSerializer(read_only=True, many=True)
+    usecases = UsecaseSerializer(read_only=True, many=True)
+    services = ServiceSerializer(read_only=True, many=True)
 
     class Meta:
         model = Feature

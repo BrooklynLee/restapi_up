@@ -4,7 +4,7 @@ from django.db import models
 
 class User(AbstractUser):
 
-    avatar = models.ImageField(upload_to="avatars", blank=True)
+    # avatar = models.ImageField(upload_to="avatars", blank=True)
     superhost = models.BooleanField(default=False)
     favs = models.ManyToManyField("features.Feature", related_name="favs")
 

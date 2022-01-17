@@ -7,13 +7,13 @@ class FeatureAdmin(admin.ModelAdmin):
 
     list_display = (
         "name",
-        "file_number",
+        # "file_number",
     )
 
 
-@admin.register(models.File)
-class FileAdmin(admin.ModelAdmin):
-    pass
+# @admin.register(models.File)
+# class FileAdmin(admin.ModelAdmin):
+#     pass
 
 
 @admin.register(models.FeatureType)
