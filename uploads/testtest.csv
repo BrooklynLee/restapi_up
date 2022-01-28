@@ -1,0 +1,1005 @@
+﻿tableIdx,columnIdx,columns_name,columns_name_kr,columns_type,columns_desc,timestamp,standard_yn
+1332,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2020-11-11 07:53:01.810,N
+1332,1,timezone,집계 시간대,string,KST (Korea Standard Time),2020-11-11 07:53:01.810,N
+1332,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-11-11 07:53:01.810,N
+1332,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2020-11-11 07:53:01.810,N
+1332,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-11-11 07:53:01.810,N
+1377,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-18 06:55:37.650,N
+1377,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-18 06:55:37.650,N
+1178,12,mainchartribe,주 캐릭터 종족,string,주 캐릭터 종족,2020-05-05 07:11:56.843,N
+1178,13,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2020-05-05 07:11:56.843,N
+1182,11,itemgrade,아이템 등급,string,아이템 등급,2020-05-05 07:19:17.667,N
+1182,12,itemlevel,아이템 레벨,string,아이템 레벨,2020-05-05 07:19:17.667,N
+1182,13,itemtype,아이템 타입,string,아이템 타입,2020-05-05 07:19:17.667,N
+1182,14,userlevel,계정 레벨,long,계정 레벨,2020-05-05 07:19:17.667,N
+1182,15,itemget,아이템 별 획득량 합계,long,아이템 별 획득량 합계,2020-05-05 07:19:17.667,N
+1182,16,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2020-05-05 07:19:17.667,N
+1334,10,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-11-07 01:20:19.453,N
+1373,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2020-05-05 07:43:24.870,N
+1373,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:43:24.870,N
+1373,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:43:24.870,N
+1373,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:43:24.870,N
+1373,7,serviceid,서비스아이디,long,게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행),2022-01-10 01:07:06.433,N
+1373,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:43:24.870,N
+1373,9,businessday_list,평일 접속 확률,array,"hh : 시간대 (0~23), day_cnt : 해당 시간대의 접속일수, prob : 해당 시간대에 접속하고 있을 확률",2020-05-05 07:43:24.870,N
+1373,10,weekendday_list,주말 접속 확률,array,"hh : 시간대 (0~23), day_cnt : 해당 시간대의 접속일수, prob : 해당 시간대에 접속하고 있을 확률",2020-05-05 07:43:24.870,N
+1373,11,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:43:24.870,N
+1377,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-18 06:55:37.650,N
+1377,9,processorname,프로세서(CPU) 명,string,프로세서(CPU) 이름,2021-01-18 06:55:37.650,N
+1377,10,processorcore,프로세서(CPU) 코어 수,long,프로세서(CPU) 코어 수,2021-01-18 06:55:37.650,N
+1514,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-07-14 12:50:22.720,N
+1514,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-07-14 12:50:22.720,N
+1514,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-07-14 12:50:22.720,N
+1514,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-07-14 12:50:22.720,N
+1514,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-07-14 12:50:22.720,N
+1514,9,push_datetime,푸쉬 메세지 발송 시간,timestamp,최근 2주간 접속 데이터로 추정한 가장 반응성이 좋을 것으로 추정되는 PUSH 시간,2020-07-14 12:50:22.720,N
+1514,10,loadingtime,데이터 적재 일시,timestamp,DB에 집계된 시간,2020-07-14 12:50:22.720,N
+1872,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-12-14 07:18:55.763,N
+1872,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-12-14 07:18:55.763,N
+1872,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-12-14 07:18:55.763,N
+1872,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-12-14 07:18:55.763,N
+1185,0,charid,캐릭터 ID,string,NXLog의 charid,2020-05-05 07:20:00.147,N
+1185,1,regionid,리전 ID,string,NXLog의 regionid,2020-05-05 07:20:00.147,N
+1185,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:20:00.147,N
+1338,0,idx,UP 고유 번호,int,UP 데이터마다 발급되는 고유 번호,2019-11-15 06:06:10.280,N
+1338,1,storagetype,저장 DB,string,UP 데이터가 저장된 DB 종류,2019-11-15 06:06:10.280,N
+1338,2,batchinterval,배치 주기,string,"Hourly, Daily, Weekly 등 배치 주기를 알파벳으로 표기",2019-11-15 06:06:10.280,N
+1338,3,keyType,계정 키 종류,string,"nexonsn, npsn, accountno 등 해당 데이터가 집계된 계정 단위",2019-11-15 06:06:10.280,N
+1338,4,statusType,테이블 성격,string,"히스토리, 최근값 등 테이블의 성격 구분자",2019-11-15 06:06:10.280,N
+1338,5,serviceid,서비스아이디,bigint,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-11-15 06:06:10.280,N
+1338,6,gameName,게임명,string,게임명,2019-11-15 06:06:10.280,N
+1338,7,commonCodeDesc,게임 부가 설명,string,"개발테스트서버, 라이브서버 등 부가 설명",2019-11-15 06:06:10.280,N
+1338,8,countryName,국가명,string,서비스 국가명,2019-11-15 06:06:10.280,N
+1338,9,min_sdate,최초 적재일,date,최초 적재일,2019-11-15 06:06:10.280,N
+1338,10,max_sdate,최근 적재일,date,최근 적재일,2019-11-15 06:06:10.280,N
+1185,3,journey,Journey,array,각 시점별 createdate를 시간 순으로 정렬한 배열,2020-05-05 07:20:00.147,N
+1277,13,shoot,슛 정보,nvarchar,"{ ""effshoottot"": 0 -- 유효 슈팅 수 ,""goalfreekick"": 0 -- 프리킥 골 수 ,""goalheading"": 0 -- 헤딩 골 수 ,""goalinpenalty"": 0 -- 인패널티 골 수 ,""goaloutpenalty"": 0 -- 아웃패널티 골 수 ,""goalpenaltykick"": 0 -- 패널티킥 골 수 ,""goaltot"": 0 -- 총 골 수 ,""goaltot_display"": 0 -- 유저들에게 보이는 골 수 ,""owngoal"": 0 -- 자책골 수 ,""shootoutscore"": 0 -- 승부차기 골 수 ,""shoottot"": 2 -- 총 슛 수 ,""shootfreekick"": 0 -- 총 프리킥 슛 수 ,""shootheading"": 0 -- 총 헤딩 슛 수 ,""shootinpenalty"": 1 -- 총 인패널티 슛 수 ,""shootoutpenalty"": 1 -- 총 아웃패널티 슛 수 ,""shootpenaltykick"": 0 -- 총 패널티킥 슛 수 }",2019-11-22 07:06:04.427,N
+1277,14,shoot_detail,슛 상세 정보,nvarchar,"-- 1경기의 슈팅수만큼 남습니다. [ { ""assist"": true, -- 어시스트 받은 슛이면 true ""goaltime"": 469, -- goaltime, 변환필요 ""hitpost"": false, -- 골 포스트 맞췄으면 true ""inpenalty"": true, -- 패널티 안에서 슛 했으면 true ""result"": 2, -- 슛결과 -> 1:ontarget / 2:offtarget / 3:goal ""type"": 1, -- 슛종류 -> 1:normal / 2:finesse / 3:header ""x"": 0.8565388321876526, -- 슈팅 x 좌표, 변환필요 ""y"": 0.2944422364234924 -- 슈팅 y 좌표, 변환필요 }, { ""assist"": false, ""goaltime"": 1761, ""hitpost"": false, ""inpenalty"": false, ""result"": 2, ""type"": 1, ""x"": 0.8398539423942566, ""y"": 0.497367799282074 }, ... ]",2019-11-22 07:06:04.427,N
+1277,15,pass,패스 정보,nvarchar,"{ ""bouncinglobpasssuccess"": 0, -- 바운싱 로빙 패스(ZA) 성공 ""bouncinglobpasstry"": 0, -- 바운싱 로빙 패스(ZA) 시도수 ""drivengroundpasssuccess"": 7, -- 드라이브 땅볼 패스(ZS) 성공수 ""drivengroundpasstry"": 9, -- 드라이브 땅볼 패스(ZS) 시도수 ""lobbedthroughpasssuccess"": 0, -- 로빙스루패스(QW) 성공수 ""lobbedthroughpasstry"": 0, -- 로빙스루패스(QW) 시도수 ""longpasssuccess"": 0, -- 롱패스 성공수 ""longpasstry"": 1, -- 롱패스 시도수 ""passsuccess"": 60, -- 전체 패스 성공수 ""passtry"": 70, -- 전체 패스 시도수 ""shortpasssuccess"": 38, -- 숏패스 성공수 ""shortpasstry"": 41, -- 숏패스 시도수 ""throughpasssuccess"": 15, -- 쓰루패스 성공수 ""throughpasstry"": 19 -- 쓰루패스 시도수 }",2019-11-22 07:06:04.427,N
+1277,16,defence,수비 정보,nvarchar,"{ ""blocksuccess"": 0, -- 블락 성공수 ""blocktry"": 0, -- 블락 시도수 ""tacklesuccess"": 5, -- 태클 성공수 ""tackletry"": 7 -- 태클 시도수 }",2019-11-22 07:06:04.427,N
+1277,17,player,선수 정보,nvarchar,"-- 1경기당 경기종료시점의 18명 선수의 정보가 남습니다. [ { ""spgrade"": 1, -- 선수 등급 ""spid"": 300179696, -- 선수ID ""spposition"": 28, -- 선수 포지션 ""status"": { ""assist"": 0, -- 어시스트 수 ""block"": 0, -- 블락 수 ""dribble"": 0, -- 드리블 수 ""effshoot"": 0, -- 유효슛 수 ""goal"": 0, -- 골 수 ""pass_success"": 0, -- 패스 성공 수 ""pass_try"": 0, -- 패스 시도 수 ""shoot"": 0, -- 슛 수 ""sprating"": 0, -- 선수평점 ""tackle"": 0 -- 태클 수 } }, { ""spgrade"": 4, ""spid"": 201001109, ""spposition"": 6, ""status"": { ""assist"": 0, ""block"": 0, ""dribble"": 0, ""effshoot"": 0, ""goal"": 0, ""pass_success"": 5, ""pass_try"": 5, ""shoot"": 0, ""sprating"": 5.1, ""tackle"": 1 } }, ... ]",2019-11-22 07:06:04.427,N
+1277,18,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-11-22 07:06:04.427,N
+1374,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2019-12-13 00:48:28.817,N
+1374,1,timezone,집계 시간대,string,KST (Korea Standard Time),2019-12-13 00:48:28.817,N
+1374,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-13 00:48:28.817,N
+1374,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2019-12-13 00:48:28.817,N
+1374,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-13 00:48:28.817,N
+1374,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-13 00:48:28.817,N
+1374,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-13 00:48:28.817,N
+1374,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-13 00:48:28.817,N
+1374,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-13 00:48:28.817,N
+1374,9,cpumodel,cpumodel,string,cpumodel,2019-12-13 00:48:28.817,N
+1374,10,videomodel,videomodel,string,videomodel,2019-12-13 00:48:28.817,N
+1374,11,os,os,string,os,2019-12-13 00:48:28.817,N
+1374,12,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-13 00:48:28.817,N
+1389,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2020-01-02 06:09:08.217,N
+1389,1,timezone,집계 시간대,string,KST (Korea Standard Time),2020-01-02 06:09:08.217,N
+1389,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-01-02 06:09:08.217,N
+1389,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2020-01-02 06:09:08.217,N
+1389,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-01-02 06:09:08.217,N
+1389,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-01-02 06:09:08.217,N
+1389,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-01-02 06:09:08.217,N
+1389,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-01-02 06:09:08.217,N
+1389,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-01-02 06:09:08.217,N
+1389,9,value,캐릭터 PVP 정보 JSON,string,캐릭터 PVP 정보 JSON,2020-01-02 06:09:08.217,N
+1389,10,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-01-02 06:09:08.217,N
+1625,11,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-08-11 04:42:02.307,N
+1370,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2019-12-06 04:16:53.767,N
+1370,1,timezone,집계 시간대,string,KST (Korea Standard Time),2019-12-06 04:16:53.767,N
+1370,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:16:53.767,N
+1370,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2019-12-06 04:16:53.767,N
+1370,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:16:53.767,N
+1370,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:16:53.767,N
+1370,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:16:53.767,N
+1370,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:16:53.767,N
+1370,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:16:53.767,N
+1370,9,playedtime,누적 플레이 시간,long,누적 플레이 시간(분 단위),2019-12-06 04:16:53.767,N
+1370,10,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-06 04:16:53.767,N
+1368,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2019-12-06 04:16:30.303,N
+1368,1,timezone,집계 시간대,string,KST (Korea Standard Time),2019-12-06 04:16:30.303,N
+1368,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:16:30.303,N
+1368,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2019-12-06 04:16:30.303,N
+1368,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:16:30.303,N
+1368,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:16:30.303,N
+1368,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:16:30.303,N
+1368,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:16:30.303,N
+1368,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:16:30.303,N
+1368,9,nickname,캐릭터 닉네임,string,캐릭터 닉네임,2019-12-06 04:16:30.303,N
+1368,10,itemequippart,아이템 장착 부위,int,아이템의 장착 부위,2019-12-06 04:16:30.303,N
+1368,11,itemid,아이템 ID,int,아이템 ID,2019-12-06 04:16:30.303,N
+1368,12,itemgrade,아이템 등급,int,아이템 등급,2019-12-06 04:16:30.303,N
+1368,13,itemenchantlevel,장비 강화 레벨,int,장비 강화 레벨,2019-12-06 04:16:30.303,N
+1368,14,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-06 04:16:30.303,N
+1292,11,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-04 08:29:45.043,N
+1291,11,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-04 08:30:37.780,N
+1372,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2019-12-06 04:17:21.453,N
+1372,1,timezone,집계 시간대,string,KST (Korea Standard Time),2019-12-06 04:17:21.453,N
+1372,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:17:21.453,N
+1372,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2019-12-06 04:17:21.453,N
+1372,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:17:21.453,N
+1372,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:17:21.453,N
+1372,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:17:21.453,N
+1372,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-06 04:17:21.453,N
+1372,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-06 04:17:21.453,N
+1372,9,value,캐릭터 스킬 정보 JSON,string,캐릭터 스킬 정보 JSON,2019-12-06 04:17:21.453,N
+1372,10,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-06 04:17:21.453,N
+1398,9,global_umk,글로벌 UMK,string,글로벌 UMK,2020-05-05 07:48:17.410,N
+1398,10,usermasterkey,유저마스터키,string,"모바일 게임에서 TPA(Third-Party Authentication) 계정으로 가입 시 동일 계정 여부를 식별하기 위한 키, 유저마스터 키가 없는 경우 -1로 입력, ""TPA 구분자 : 식별키"" 조합키 형태로 저장되며 TPA 구분자를 파싱하여 유저마스터키 생성 출처를 알 수 있음, 자세한 내용은 https://confluence.nexon.com/x/VkrADg 참조",2020-05-05 07:48:17.410,N
+1398,11,id_type,로그인 플랫폼 구분자,string,로그인 플랫폼 구분자,2020-05-05 07:48:17.413,N
+1398,12,btoken,B토큰,string,B토큰,2020-05-05 07:48:17.413,N
+1398,13,create_date,생성일자,datetime,생성일자,2020-05-05 07:48:17.413,N
+1398,14,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:48:17.413,N
+1399,9,teamvalue,구단 가치,nvarchar(MAX),"구단가치 정보(bp: 보유 BP, clubvalue: 대표팀 구단가치, totalvalue: 모든 선수로 집계한 구단가치, player: 보유한 총 선수 수)",2020-05-05 07:48:35.963,N
+1399,10,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:48:35.963,N
+1404,9,1st_accessip,TOP 1 IP 주소,string,TOP 1 IP 주소,2020-05-05 07:49:13.730,N
+1404,10,1st_dt,TOP 1 DT,long,TOP 1 DT (분),2020-05-05 07:49:13.730,N
+1384,16,reporter_serviceareaid,마지막 신고자 게임 계정 구분자,string,마지막 신고자 게임 계정 구분자,2020-05-05 07:45:17.463,N
+1384,17,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:45:17.463,N
+1460,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-06 02:38:18.187,N
+1460,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2020-05-06 02:38:18.187,N
+1460,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-06 02:38:18.187,N
+1460,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-06 02:38:18.187,N
+1460,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-06 02:38:18.187,N
+1460,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-06 02:38:18.187,N
+1460,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-06 02:38:18.187,N
+1460,9,totalamount_year,최근 1년 총 과금액,long,최근 1년 총 과금액,2020-05-06 02:38:18.187,N
+1460,10,totalamount_max,최근 1년 한달 최대 과금액,long,최근 1년 동안 가장 많은 금액을 지불한 달의 총 과금액,2020-05-06 02:38:18.187,N
+1460,11,wallet_size,지갑 크기,double,예측된 일자별 예상 지불 금액,2020-05-06 02:38:18.187,N
+1460,12,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-06 02:38:18.187,N
+1404,11,1st_serviceid,TOP 1 서비스아이디,long,TOP 1 서비스아이디,2020-05-05 07:49:13.730,N
+1330,9,smonth,집계월,string,집계월(yyyy-MM),2020-05-26 06:37:14.607,N
+1330,10,billingusersn,빌링SN,int,넥슨 빌링 시스템에서 계정을 식별하기 위해 사용하는 키(nexonsn과 기준이 다르며 빌링 시스템 계정 정보를 이용하면 nexonsn과 맵핑할 수 있음),2020-05-26 06:37:14.607,N
+1330,11,birthday,생년월일,date,"넥슨 회원 가입 시 이용자가 입력한 생년월일, 기본값은 NULL로 입력",2020-05-26 06:37:14.607,N
+1330,12,yearage,연나이,int,"birthday 를 기준으로 계산한 연나이, 계산이 불가능할 경우 -1로 입력",2020-05-26 06:37:14.607,N
+1330,13,gendertype,성별,string,"넥슨 회원 가입 시 이용자가 입력한 성별, 구분이 불가능할 경우 !notapplicable@로 입력",2020-05-26 06:37:14.607,N
+1330,14,tpatype,넥슨 회원 TPA 코드,string,"TPA(Third-Party Authentication) 구분 코드,  Nexon : 넥슨회원 Facebook : 페이스북계정 연동 Google : 구글계정 연동 Naver :네이버계정 연동",2020-05-26 06:37:14.607,N
+1330,15,domain,계정 도메인,string,계정 도메인,2020-05-26 06:37:14.607,N
+1607,19,accuracy_radius,정확도 반경,int,위도 및 경도 주변의 대략적인 정확도 반경 (킬로미터)입니다.,2020-12-02 09:40:28.193,N
+1607,20,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2020-12-02 09:40:28.193,N
+1661,10,grade_total,VIP 대표 등급 명,string,"전월 500+(전월 결제 500만원 이상), 전월 200+(전월 결제 200만원 이상 ~ 500만원 미만), 전월 100+(전월 결제 100만원 이상 ~ 200만원 미만), 전월 50+(전월 결제 50만원 이상 ~ 100만원 미만). 과거 레거시 대표 등급명 포함",2021-01-19 08:15:59.417,N
+1661,11,loadingtime,데이터 적재 일시,timestamp,DB에 집계된 시간,2021-01-19 08:15:59.417,N
+1557,8,worldid,게임 서버,string,characterid로 캐릭터를 찾기 위한 보조 식별자. NPSN 기준 집계여서 !notapplicable@로 입력,2021-01-19 08:26:00.130,N
+1379,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2019-12-12 08:07:28.947,N
+1379,1,timezone,집계 시간대,string,KST (Korea Standard Time),2019-12-12 08:07:28.947,N
+1379,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-12 08:07:28.947,N
+1379,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2019-12-12 08:07:28.947,N
+1379,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-12 08:07:28.947,N
+1379,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-12 08:07:28.947,N
+1379,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-12 08:07:28.947,N
+1379,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-12 08:07:28.947,N
+1379,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-12 08:07:28.947,N
+1379,9,smonth,집계월,string,NULL,2019-12-12 08:07:28.947,N
+1379,10,billingusersn,빌링SN,int,넥슨 빌링 시스템에서 계정을 식별하기 위해 사용하는 키(nexonsn과 기준이 다르며 빌링 시스템 계정 정보를 이용하면 nexonsn과 맵핑할 수 있음),2019-12-12 08:07:28.947,N
+1379,11,birthday,생년월일,string,"넥슨 회원 가입 시 이용자가 입력한 생년월일, 기본값은 NULL로 입력",2019-12-12 08:07:28.947,N
+1379,12,yearage,연나이,int,"birthday 를 기준으로 계산한 연나이, 계산이 불가능할 경우 -1로 입력",2019-12-12 08:07:28.947,N
+1379,13,gendertype,성별,string,"넥슨 회원 가입 시 이용자가 입력한 성별, 구분이 불가능할 경우 !notapplicable@로 입력",2019-12-12 08:07:28.947,N
+1379,14,tpatype,넥슨 회원 TPA 코드,string,"TPA(Third-Party Authentication) 구분 코드,  Nexon : 넥슨회원 Facebook : 페이스북계정 연동 Google : 구글계정 연동 Naver :네이버계정 연동",2019-12-12 08:07:28.947,N
+1379,15,domain,NULL,string,NULL,2019-12-12 08:07:28.947,N
+1379,16,tdgamecode_id,NULL,smallint,NULL,2019-12-12 08:07:28.947,N
+1379,17,gamename,NULL,string,NULL,2019-12-12 08:07:28.947,N
+1379,18,vip_grade,NULL,string,NULL,2019-12-12 08:07:28.947,N
+1379,19,group_name,NULL,string,NULL,2019-12-12 08:07:28.947,N
+1379,20,purchase_cash,NULL,decimal,NULL,2019-12-12 08:07:28.947,N
+1379,21,purchase_cash_nongift,NULL,decimal,NULL,2019-12-12 08:07:28.947,N
+1379,22,purchase_cash_gift,NULL,decimal,NULL,2019-12-12 08:07:28.947,N
+1379,23,purchase_freecash,NULL,decimal,NULL,2019-12-12 08:07:28.947,N
+1379,24,purchase_freecash_nongift,NULL,decimal,NULL,2019-12-12 08:07:28.947,N
+1379,25,purchase_freecash_gift,NULL,decimal,NULL,2019-12-12 08:07:28.947,N
+1379,26,porder,NULL,long,NULL,2019-12-12 08:07:28.947,N
+1379,27,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-12 08:07:28.947,N
+1557,9,total_nxlogcnt,주간 NXLog 발생량,long,NXLog 의 주간 발생량. sdate 를 기준으로 DDay+6 기간의 NXLog 발생량임. 예를 들어 sdate 가 2020-08-03 이라면 2020-08-03 ~ 2020-08-09 기간의 NXLog 의 발생량을 의미,2021-01-19 08:26:00.130,N
+1557,10,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2021-01-19 08:26:00.130,N
+1649,11,city_name,도시 이름,nvarchar,도시 이름(시군구). objectid 의 값을 KAKAO Map 주소검색 API 에 입력시 반환되는 값을 기반으로 함,2021-10-05 08:25:31.620,N
+1405,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:49:26.840,N
+1405,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:49:26.840,N
+1405,9,gamenamekr,게임명,string,게임명,2020-05-05 07:49:26.840,N
+1405,10,accessip,접속 IP,string,접속 IP,2020-05-05 07:49:26.840,N
+1405,11,dt,세션 지속 시간,long,하루동안 해당 IP로 접속한 세션 지속 시간의 합계(분),2020-05-05 07:49:26.840,N
+1394,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2020-01-06 05:40:33.027,N
+1394,1,timezone,집계 시간대,string,KST (Korea Standard Time),2020-01-06 05:40:33.027,N
+1394,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-01-06 05:40:33.027,N
+1394,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2020-01-06 05:40:33.027,N
+1394,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-01-06 05:40:33.027,N
+1394,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-01-06 05:40:33.027,N
+1394,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-01-06 05:40:33.027,N
+1394,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-01-06 05:40:33.027,N
+1394,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-01-06 05:40:33.027,N
+1394,9,os_platform,OS 정보,string,"OS Platform 정보 (iOS, Android)",2020-01-06 05:40:33.027,N
+1394,10,os_name,OS 이름,string,OS명칭(ex.iOS 12.1),2020-01-06 05:40:33.027,N
+1394,11,total_memory,램 용량,string,"전체 메모리 량 ex) ""3646MB""",2020-01-06 05:40:33.027,N
+1394,12,total_storage,저장 공간,string,"총 저장 공간 출력 ex) ""46579MB""",2020-01-06 05:40:33.027,N
+1394,13,device_name,디바이스명,string,디바이스 명칭(ex. iPhone10.5),2020-01-06 05:40:33.027,N
+1394,14,country_name,국가명,string,국가명(ex.Korea),2020-01-06 05:40:33.027,N
+1394,15,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-01-06 05:40:33.027,N
+1276,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-04-02 08:49:56.807,N
+1276,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-04-02 08:49:56.807,N
+1276,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-04-02 08:49:56.807,N
+1414,15,badwordprob,비속어 확률,float,targetusernickname에 대한 비속어 확률,2020-02-10 08:10:02.683,N
+1414,16,reportid,신고유니크키,string,신고유니크키,2020-02-10 08:10:02.683,N
+1414,17,reporttext,신고추가사유(최대150),string,신고추가사유(최대150),2020-02-10 08:10:02.683,N
+1414,18,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-02-10 08:10:02.683,N
+1406,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:49:39.807,N
+1406,9,gamenamekr,게임명,string,게임명,2020-05-05 07:49:39.807,N
+1264,16,serviceidregistetime,서비스아이디 등록날짜,datetime,relog report에 등록된 서비스아이디가 최초 등록된 시간,2020-05-05 07:35:21.513,N
+1264,17,serviceidmodifytime,서비스아이디 수정날짜,datetime,relog report에 등록된 서비스아이디가 최종 수정된 시간,2020-05-05 07:35:21.513,N
+1264,18,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:35:21.513,N
+1276,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-04-02 08:49:56.807,N
+1276,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-04-02 08:49:56.807,N
+1276,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-04-02 08:49:56.807,N
+1276,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-04-02 08:49:56.807,N
+1276,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-04-02 08:49:56.807,N
+1276,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-04-02 08:49:56.807,N
+1605,17,membertype,회원 타입,varchar,"넥슨회원과 채널링회원을 구분하는 식별자, Nexon : 넥슨회원 Channeling : 채널링회원",2021-09-24 10:33:58.033,N
+1605,18,memberdetailtype,넥슨 회원 세부 타입,varchar,넥슨회원 세부타입 구회원(넥슨 구회원 신회원: 넥슨 신회원 전환회원: 넥슨 전환회원 채널링회원: 채널링회원),2021-09-24 10:33:58.033,N
+1223,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2019-12-17 07:53:35.230,N
+1223,1,regdate,충전일시(YYYY-MM-DD hh:mm:ss),datetime,충전일시(YYYY-MM-DD hh:mm:ss),2022-01-12 10:30:54.060,N
+1223,2,journalsn,JournalSN,bigint,nct_Journal의 구매 데이터에서 debitJournalSn 값과 맵핑되는 키값,2019-12-17 07:53:35.230,N
+1223,3,billingusersn,빌링SN,int,넥슨 빌링 시스템에서 계정을 식별하기 위해 사용하는 키(nexonsn과 기준이 다르며 빌링 시스템 계정 정보를 이용하면 nexonsn과 맵핑할 수 있음),2019-12-17 07:53:35.230,N
+1223,4,billid,BillID,nvarchar(45),"""nexonsn@nx"" 조합으로 생성되는 유저식별자 @nx을 빼면 nexonSN 이되며, @neople을 빼면 m_id",2019-12-17 07:53:35.230,N
+1223,5,nexonsn,NexonSN,bigint,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2019-12-17 07:53:35.230,N
+1223,6,chargedamount,유료 충전금액,float,유료 충전금액,2019-12-17 07:53:35.230,N
+1223,7,payremainingamount,충전 후 보유한 유료 잔액,float,충전 후 보유한 유료 잔액,2019-12-17 07:53:35.230,N
+1223,8,totalremainingamount,충전 후 보유한 유무료 잔액,float,충전 후 보유한 유무료 잔액,2019-12-17 07:53:35.230,N
+1223,9,orderid,주문 번호,nvarchar(50),"주문번호 (충전 요청 승인을 위한 주문 번호)*MAPL_44:12312321321 형태이며, MAPL_44 처럼 충전 이용채널 Code값이 포함되어 있음",2019-12-17 07:53:35.230,N
+1223,10,chargeaccount,결제 수단의 계정 정보,nvarchar(20),결제수단의 계정No (! nexonSN과 같은 유저식별자 아님.) ApvNo 컬럼과 함께 간편결제(ex. 카카오페이) 내 등록된 신용카드 등 상세 결제수단을 확인할 수 있음,2019-12-17 07:53:35.230,N
+1223,11,apvno,승인번호,nvarchar(100),"승인번호(충전 요청이 승인된 번호: 충전완료) AccountNo 컬럼값과 함께 간편결제, 신용카드 상세 정보를 확인할 수 있음.",2019-12-17 07:53:35.230,N
+1223,12,nxpaysn,충전 이용 채널 코드값,bigint,충전 이용 채널 Code값,2019-12-17 07:53:35.230,N
+1223,13,channelname,충전 이용 채널명,nvarchar(20),"충전 이용 채널(PC웹 또는 모바일앱) *PC웹 : 넥슨닷컴, 메이플웹/게임 등 *모바일앱 : 넥슨플레이, 피파온라인4공식도우미",2019-12-17 07:53:35.230,N
+1223,14,liabilitytype,캐시 타입 코드값,int,"CashType Code값 (20 : 넥슨캐시, 21 : Sera, 64,87 : Tera)",2019-12-17 07:53:35.230,N
+1223,15,cashtype,캐시 타입,nvarchar(20),"NexonCash, Sera(던파용 캐시), Tera(사이퍼즈용 캐시)",2019-12-17 07:53:35.230,N
+1223,16,chargetype,결제수단 코드값,int,결제수단 + 괄호() : PG사 정보 Code값,2019-12-17 07:53:35.230,N
+1223,17,chargetypename,결제 수단,nvarchar(45),결제 수단 + 괄호() : PG사 정보,2019-12-17 07:53:35.230,N
+1223,18,paymethodcode,결제수단 코드값,int,결제 수단 코드값,2019-12-17 07:53:35.230,N
+1223,19,paymethodname,결제 수단,nvarchar(45),결제 수단명,2019-12-17 07:53:35.230,N
+1223,20,requestip,충전한 IP,nvarchar(45),"충전한 IP *바코드캐시충전의 경우 IP값이 남지 않아 ""0.0.0.0""으로 표기",2019-12-17 07:53:35.230,N
+1223,21,loadingtime,데이터 적재 일시,date,데이터 적재 일시,2019-12-17 07:53:35.230,N
+1406,10,accessip,접속 IP,string,접속 IP,2020-05-05 07:49:39.807,N
+1406,11,dt,세션 지속 시간,long,하루동안 해당 IP로 접속한 세션 지속 시간의 합계 (분),2020-05-05 07:49:39.807,N
+1406,12,total_dt,누적 세션 지속 시간,long,2019년 12월 부터의 누적 세션 지속 시간 (분),2020-05-05 07:49:39.807,N
+1406,13,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:49:39.807,N
+1417,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:50:50.877,N
+1417,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:50:50.877,N
+1420,9,refund_amt,환불 금액,double,일별 기준 환불 금액 (단위: 원(KRW)),2020-12-07 02:28:56.190,N
+1420,10,refund_cnt,환불 누적 수,long,일별 기준 환불 금액 (단위: 원(KRW)),2020-12-07 02:28:56.190,N
+1420,11,refund_dt_min,최초 환불 시각,datetime,최초 환불 시각(확정 시각 기준),2020-12-07 02:28:56.190,N
+1420,12,refund_dt_max,마지막 환불 시각,datetime,마지막 환불 시각(확정 시각 기준),2020-12-07 02:28:56.190,N
+1424,10,createdate,사전 예약 일시,datetime,사전 예약 일시,2020-07-15 08:55:09.577,N
+1424,11,usermasterkey,유저마스터키,string,"모바일 게임에서 TPA(Third-Party Authentication) 계정으로 가입 시 동일 계정 여부를 식별하기 위한 키, 유저마스터 키가 없는 경우 -1로 입력, ""TPA 구분자 : 식별키"" 조합키 형태로 저장되며 TPA 구분자를 파싱하여 유저마스터키 생성 출처를 알 수 있음, 자세한 내용은 https://confluence.nexon.com/x/VkrADg 참조",2020-07-15 08:55:09.577,N
+1424,12,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2020-07-15 08:55:09.577,N
+1544,2,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-07-30 06:08:45.107,N
+1544,3,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-07-30 06:08:45.107,N
+1544,4,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-07-30 06:08:45.107,N
+1544,5,objectid,오브젝트 아이디,string,해당 객체의 아이디 정보를 설명합니다.,2020-07-30 06:08:45.107,N
+1544,6,objecttype,오브젝트 타입,string,해당 객체의 성격을 의미합니다.,2020-07-30 06:08:45.107,N
+1544,7,sum,과금 총액,string,과금 총액,2020-07-30 06:08:45.107,N
+1375,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-18 07:00:17.037,N
+1375,9,nxlog_systeminfo,nxlog 시스템 정보,struct,nxlog_systeminfo와 동일한 구조,2021-01-18 07:00:17.037,N
+1375,10,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-01-18 07:00:17.037,N
+1376,11,Sido,시/도,string,피씨방이 위치한 시/도,2021-01-18 07:00:31.140,N
+1376,12,Gu,구,string,피씨방이 위치한 구,2021-01-18 07:00:31.140,N
+1376,13,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-01-18 07:00:31.140,N
+1610,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-10-19 01:21:39.600,N
+1610,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-10-19 01:21:39.600,N
+1610,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-10-19 01:21:39.600,N
+1610,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-10-19 01:21:39.600,N
+1610,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-10-19 01:21:39.600,N
+1610,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-10-19 01:21:39.600,N
+1182,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2020-05-05 07:19:17.667,N
+1182,1,timezone,집계 시간대,string,KST (Korea Standard Time),2020-05-05 07:19:17.667,N
+1182,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:19:17.667,N
+1182,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2020-05-05 07:19:17.667,N
+1434,10,weekend_tag,"주말 - 주행성, 야행성 태깅",string,"morning_weekend, night_weekend 중 높은 수치에 따라 판별  => a morning lark(주행성), a night owl(야행성), a hummingbird(동률)",2020-05-05 07:53:56.350,N
+1434,11,morning_weekday,주중 오전 접속 2주 간 총계,long,(주중) 오전 8시~오후 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:56.350,N
+1434,12,night_weekday,주중 오후 접속 2주 간 총계,long,(주중)오후 8시~오전 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:56.350,N
+1434,13,morning_weekend,주말 오전 접속 2주 간 총계,long,(주말)오전 8시~오후 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:56.350,N
+1434,14,night_weekend,주말 오후 접속 2주 간 총계,long,(주중)오후 8시~오전 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:56.350,N
+1434,15,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:53:56.350,N
+1182,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:19:17.667,N
+1182,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:19:17.667,N
+1182,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:19:17.667,N
+1182,7,serviceid,서비스아이디,string,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:19:17.667,N
+1182,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:19:17.667,N
+1182,9,itemid,획득한 아이템 인덱스 정보,string,획득한 아이템 인덱스 정보,2020-05-05 07:19:17.667,N
+1182,10,itemgettype,획득 타입(원인),string,획득 타입(원인),2020-05-05 07:19:17.667,N
+1544,8,avg,과금 유저별 평균,string,과금 유저별 평균,2020-07-30 06:08:45.107,N
+1474,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2020-06-09 11:33:28.783,N
+1474,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2020-06-09 11:33:28.783,N
+1474,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2020-06-09 11:33:28.783,N
+1474,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2020-06-09 11:33:28.783,N
+1727,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-03-05 05:59:47.730,N
+1727,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-03-05 05:59:47.730,N
+1610,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-10-19 01:21:39.600,N
+1380,5,serviceareaid,게임계정 구분자,nvarchar,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-12 07:50:10.357,N
+1380,6,characterid,캐릭터 ID,nvarchar,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-12 07:50:10.357,N
+1380,7,serviceid,서비스아이디,bigint,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-12 07:50:10.357,N
+1380,8,worldid,게임 서버 정보,nvarchar,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-12 07:50:10.357,N
+1380,9,total_purchase_ratio,백분율 순위(총 구매),float,3개월 누적 구매기준 백분율(%) 순위,2019-12-12 07:50:10.357,N
+1380,10,firstgame_purchase_ratio,백분율 순위(1순위 게임),float,3개월 누적 구매 기준 1순위 게임 백분율(%) 순위,2019-12-12 07:50:10.357,N
+1380,11,secondgame_purchase_ratio,백분율 순위(2순위 게임),float,3개월 누적 구매 기준 2순위 게임 백분율(%) 순위,2019-12-12 07:50:10.357,N
+1380,12,thirdgame_purchase_ratio,백분율 순위(3순위 게임),float,3개월 누적 구매 기준 3순위 게임 백분율(%) 순위,2019-12-12 07:50:10.357,N
+1380,13,grade_total,등급(총 구매),varchar,3개월 누적 총 구매 기준 VIP 등급,2019-12-12 07:50:10.357,N
+1380,14,grade_firstrank_game,등급(1순위 게임),varchar,3개월 누적 1순위 구매게임 기준 VIP 등급,2019-12-12 07:50:10.357,N
+1380,15,grade_secondrank_game,등급(2순위 게임),varchar,3개월 누적 2순위 구매게임 기준 VIP 등급,2019-12-12 07:50:10.357,N
+1380,16,grade_thirdrank_game,등급(3순위 게임),varchar,3개월 누적3순위 구매게임 기준 VIP 등급,2019-12-12 07:50:10.357,N
+1380,17,billingusersn,빌링SN,bigint,넥슨 빌링 시스템에서 계정을 식별하기 위해 사용하는 키(nexonsn과 기준이 다르며 빌링 시스템 계정 정보를 이용하면 nexonsn과 맵핑할 수 있음),2019-12-12 07:50:10.357,N
+1380,18,billid,BillID,varchar,"nexonsn@nx 조합으로 생성되는 유저식별자 @nx을 빼면 nexonSN 이되며, @neople을 빼면 m_id",2019-12-12 07:50:10.357,N
+1380,19,cashtype,캐시타입,varchar,"충전 캐시 타입(NexonCash(넥슨), Sera(네오플 던파), Tera(네오플 사이퍼즈) )",2019-12-12 07:50:10.357,N
+1380,20,purchaseamount_cash_nongift,구매금액(선물 제외),money,3개월 유료 구매금액(선물한 금액 제외),2019-12-12 07:50:10.357,N
+1380,21,purchaseamount_cash_gift,선물금액,money,3개월 유료 구매액(선물한 금액만),2019-12-12 07:50:10.357,N
+1380,22,firstgame_purchase_serviceid,1순위 서비스아이디,bigint,1순위 게임 서비스아이디,2019-12-12 07:50:10.357,N
+1380,23,firstgame_purchase_gameid,1순위 게임ID,bigint,1순위 게임ID,2019-12-12 07:50:10.357,N
+1380,24,firstgame_purchase_gamename,1순위 구매 게임명,varchar,1순위 구매 게임명,2019-12-12 07:50:10.357,N
+1380,25,firstgame_purchaseamount_cash_nongift,1순위 게임 구매 금액,money,1순위게임 3개월 유료 구매금액 (선물제외),2019-12-12 07:50:10.357,N
+1380,26,firstgame_purchaseamount_cash_gift,1순위 게임 선물 금액,money,1순위게임 3개월 유료 구매금액 (선물),2019-12-12 07:50:10.357,N
+1380,27,firstgame_purchaseamount_ratio,1순위 게임 매출 비중,float,1순위게임 3개월 누적 매출 비중,2019-12-12 07:50:10.357,N
+1380,28,secondgame_purchase_serviceid,2순위 서비스아이디,bigint,2순위 게임 서비스아이디,2019-12-12 07:50:10.357,N
+1380,29,secondgame_purchase_gameid,2순위 게임ID,bigint,2순위 게임ID,2019-12-12 07:50:10.357,N
+1380,30,secondgame_purchase_gamename,2순위 구매 게임명,varchar,2순위 구매 게임명,2019-12-12 07:50:10.357,N
+1380,31,secondgame_purchaseamount_cash_nongift,2순위 게임 구매 금액,money,2순위게임 3개월 유료 구매금액 (선물제외),2019-12-12 07:50:10.357,N
+1380,32,secondgame_purchaseamount_cash_gift,2순위 게임 선물 금액,money,2순위게임 3개월 유료 구매금액 (선물),2019-12-12 07:50:10.357,N
+1380,33,secondgame_purchaseamount_ratio,2순위 게임 매출 비중,float,2순위게임 3개월 누적 매출 비중,2019-12-12 07:50:10.357,N
+1380,34,thirdgame_purchase_serviceid,3순위 서비스아이디,bigint,3순위 게임 서비스아이디,2019-12-12 07:50:10.357,N
+1380,35,thirdgame_purchase_gameid,3순위 게임ID,bigint,3순위 게임ID,2019-12-12 07:50:10.357,N
+1380,36,thirdgame_purchase_gamename,3순위 구매 게임명,varchar,3순위 구매 게임명,2019-12-12 07:50:10.357,N
+1380,37,thirdgame_purchaseamount_cash_nongift,3순위 게임 구매 금액,money,3순위게임 3개월 유료 구매금액 (선물제외),2019-12-12 07:50:10.357,N
+1380,38,thirdgame_purchaseamount_cash_gift,3순위 게임 선물 금액,money,3순위게임 3개월 유료 구매금액 (선물),2019-12-12 07:50:10.357,N
+1380,39,thirdgame_purchaseamount_ratio,3순위 게임 매출 비중,float,3순위 게임 3개월 누적 매출 비중,2019-12-12 07:50:10.357,N
+1380,40,userlimitamount,자가 한도 금액,money,자가 설정한 충전 한도 금액,2019-12-12 07:50:10.357,N
+1380,41,charge_amount_cash,충전 금액,money,3개월 누적 유료 충전 금액,2019-12-12 07:50:10.357,N
+1380,42,first_charge_paymethod,1순위 충전 수단,varchar,3개월 총 누적 충전금액(유료) 기준 1순위 충전수단,2019-12-12 07:50:10.357,N
+1380,43,first_charge_amount_cash,1순위 충전 금액,money,3개월 총 누적 충전금액(유료) 기준 1순위 충전수단,2019-12-12 07:50:10.357,N
+1380,44,second_charge_paymethod,2순위 충전 수단,varchar,3개월 총 누적 충전금액(유료) 기준 2순위 충전수단,2019-12-12 07:50:10.357,N
+1380,45,second_charge_amount_cash,2순위 충전 금액,money,3개월 총 누적 충전금액(유료) 기준 2순위 충전금액,2019-12-12 07:50:10.357,N
+1380,46,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-12 07:50:10.357,N
+1399,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2020-05-05 07:48:35.963,N
+1399,1,timezone,집계 시간대,string,KST (Korea Standard Time),2020-05-05 07:48:35.963,N
+1399,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:48:35.963,N
+1399,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2020-05-05 07:48:35.963,N
+1399,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:48:35.963,N
+1399,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:48:35.963,N
+1399,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:48:35.963,N
+1399,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:48:35.963,N
+1381,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2019-12-13 08:00:30.247,N
+1381,1,timezone,집계 시간대,string,KST (Korea Standard Time),2019-12-13 08:00:30.247,N
+1381,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-13 08:00:30.247,N
+1381,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2019-12-13 08:00:30.247,N
+1381,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-13 08:00:30.247,N
+1381,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-13 08:00:30.247,N
+1381,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-13 08:00:30.247,N
+1381,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-13 08:00:30.247,N
+1381,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-13 08:00:30.247,N
+1381,9,processorname,프로세서(CPU) 명,string,프로세서(CPU) 이름,2019-12-13 08:00:30.247,N
+1381,10,processorcore,프로세서(CPU) 코어 수,long,프로세서(CPU) 코어 수,2019-12-13 08:00:30.247,N
+1381,11,ramsize,램 사이즈,long,램의 사양(단위 Gigabyte),2019-12-13 08:00:30.247,N
+1381,12,videoname_array,GPU 정보,string,GPU 제품을 어레이 형태로 표시,2019-12-13 08:00:30.247,N
+1381,13,osname,OS 명,string,OS 명칭,2019-12-13 08:00:30.247,N
+1381,14,osbit,OS 비트,string,OS 비트 정보,2019-12-13 08:00:30.247,N
+1381,15,volumesize,하드 용량,long,하드 용량 정보,2019-12-13 08:00:30.247,N
+1381,16,soundname_array,사운드 장치 정보,string,사운드 장치 정보를 어레이로 제공,2019-12-13 08:00:30.247,N
+1381,17,pcbang_name,피씨방 이름,string,피씨방 이름,2019-12-13 08:00:30.247,N
+1381,18,sido,시/도,string,피씨방이 위치한 시/도,2019-12-13 08:00:30.247,N
+1381,19,gu,구,string,피씨방이 위치한 구,2019-12-13 08:00:30.247,N
+1381,20,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-13 08:00:30.247,N
+1644,15,identitysn_most_playtime_6m,identitysn 기준 가장 플레이시간이 많은 nexonsn 의 비PC방 플레이타임(6개월),int,identitysn 기준 가장 플레이시간이 많은 nexonsn 의 비PC방 플레이타임(6개월),2020-11-11 05:08:50.777,N
+1644,16,nexonsn_totalplaytime_3m,nexonsn기준 누적 플레이시간(3개월),int,nexonsn기준 최근 3개월동안 모든 국내 PC게임을 접속한 누적 시간 (분),2020-11-11 05:08:50.777,N
+1432,14,os_platform,OS 플랫폼,string,OS 플랫폼,2020-05-05 07:53:19.193,N
+1432,15,first_usedate,최초 사용 시점,datetime,해당 디바이스 최초 사용 시점,2020-05-05 07:53:19.193,N
+1432,16,recent_usedate,최근 사용 시점,datetime,해당 디바이스 최근 사용 시점,2020-05-05 07:53:19.193,N
+1432,17,before_usedate,이전 기기 최초 사용 시점,datetime,first_usedate 정렬 기준 (현재 기기를 제외한) 가장 최신 기기의 first_usedate사용,2020-05-05 07:53:19.193,N
+1432,18,cycle_datediff,기기 변경 날짜 간의 차이,long,"이전에 사용한 기기와 현재 사용하는 기기 기준(first_usedate, before_usedate) 두 날짜 간의 차이",2020-05-05 07:53:19.193,N
+1432,19,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:53:19.193,N
+1433,10,weekend_tag,"주말 - 주행성, 야행성 태깅",string,"morning_weekend, night_weekend 중 높은 수치에 따라 판별  => a morning lark(주행성), a night owl(야행성), a hummingbird(동률)",2020-05-05 07:53:41.613,N
+1433,11,morning_weekday,주중 오전 접속 2주 간 총계,long,(주중) 오전 8시~오후 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:41.613,N
+1433,12,night_weekday,주중 오후 접속 2주 간 총계,long,(주중)오후 8시~오전 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:41.613,N
+1433,13,morning_weekend,주말 오전 접속 2주 간 총계,long,(주말)오전 8시~오후 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:41.613,N
+1433,14,night_weekend,주말 오후 접속 2주 간 총계,long,(주중)오후 8시~오전 8시 이전까지 2주간 접속한 수의 합,2020-05-05 07:53:41.613,N
+1433,15,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2020-05-05 07:53:41.613,N
+1436,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:54:29.247,N
+1436,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:54:29.247,N
+1785,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-03-25 06:51:02.197,N
+1785,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-03-25 06:51:02.197,N
+1644,17,nexonsn_totalplaytime_6m,nexonsn기준 누적 플레이시간(6개월),int,nexonsn기준 최근 6개월동안 모든 국내 PC게임을 접속한 누적 시간 (분),2020-11-11 05:08:50.777,N
+1644,18,nexonsn_pcbang_playtime_3m,nexonsn기준 PC방 누적 플레이시간(3개월),int,nexonsn기준 최근 3개월동안 PC방에서 모든 국내 PC게임을 접속한 누적 시간 (분),2020-11-11 05:08:50.777,N
+1644,19,nexonsn_pcbang_playtime_6m,nexonsn기준 PC방 누적 플레이시간(6개월),int,nexonsn기준 최근 6개월동안 PC방에서 모든 국내 PC게임을 접속한 누적 시간 (분),2020-11-11 05:08:50.777,N
+1644,20,nexonsn_nopcbang_playtime_3m,nexonsn기준 비PC방 누적 플레이시간(3개월),int,nexonsn기준 최근 3개월동안 PC방에서 모든 국내 PC게임을 접속한 누적 시간 (분),2020-11-11 05:08:50.777,N
+1785,2,accountno,게임 계정,string,"*미사용, 게임에서 발행된 계정 ID",2021-03-25 06:51:02.197,N
+1785,3,nexonsn,NexonSN,long,"*미사용, 넥슨 계정 식별자",2021-03-25 06:51:02.197,N
+1785,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-03-25 06:51:02.197,N
+1436,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2020-05-05 07:54:29.247,N
+1436,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2020-05-05 07:54:29.247,N
+1388,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-24 08:19:18.557,N
+1388,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-24 08:19:18.557,N
+1388,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2019-12-24 08:19:18.557,N
+1388,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2019-12-24 08:19:18.557,N
+1388,9,route,매핑 근거,string,매핑한 사유 혹은 출처,2019-12-24 08:19:18.557,N
+1388,10,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2019-12-24 08:19:18.557,N
+1933,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-12-31 04:21:22.807,N
+1933,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-12-31 04:21:22.807,N
+1933,2,accountno,AccountNo,string,게임에서 발행한 계정ID,2021-12-31 04:21:22.807,N
+1649,12,hj_area,행정구역명,nvarchar,행정구역명. objectid 의 값을 KAKAO Map 주소검색 API 에 입력시 반환되는 값을 기반으로 함,2021-10-05 08:25:31.620,N
+1649,13,latitude,위도,nvarchar,위도. objectid 의 값을 KAKAO Map 주소검색 API 에 입력시 반환되는 값을 기반으로 함,2021-10-05 08:25:31.620,N
+1649,14,longitude,경도,nvarchar,경도. objectid 의 값을 KAKAO Map 주소검색 API 에 입력시 반환되는 값을 기반으로 함,2021-10-05 08:25:31.620,N
+1649,15,hjd_code,행정동 코드,nvarchar,행정동 코드. objectid 의 값을 KAKAO Map 주소검색 API 에 입력시 반환되는 값을 기반으로 함,2021-10-05 08:25:31.620,N
+1933,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-12-31 04:21:22.807,N
+1929,12,createdate,게임서비스별 가입일자,date,게임서비스에 대한 nexonsn 의 최초 가입일자,2021-12-10 01:04:48.957,N
+1929,13,flag,신규/복귀 플레그,nvarchar,유저구분 값. 자세한 사항은 컨플루언스 문서 참고,2021-12-10 01:04:48.957,N
+1929,14,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-12-10 01:04:48.957,N
+1748,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-01-14 06:25:38.470,N
+1748,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-01-14 06:25:38.470,N
+1748,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-01-14 06:25:38.470,N
+1748,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-01-14 06:25:38.470,N
+1748,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-01-14 06:25:38.470,N
+1748,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-01-14 06:25:38.470,N
+1748,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-01-14 06:25:38.470,N
+1748,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-01-14 06:25:38.470,N
+1748,8,worldid,게임 서버,string,게임 서버 구분자,2021-01-14 06:25:38.470,N
+1748,9,listtype,리스트 유형,string,"리스트 유형(id, ip 두가지 존재)",2021-01-14 06:25:38.470,N
+1748,10,blacklist,블랙리스트,string,블랙리스트,2021-01-14 06:25:38.470,N
+1748,11,connecttype,접속 유형,string,"nexon, neople, naver..등 (리스트 유형이 id일때만 값 존재)",2021-01-14 06:25:38.470,N
+1748,12,startdatetime,제한 시작 시간,datetime,제한 시작 시간,2021-01-14 06:25:38.470,N
+1748,13,expiredatetime,제한 종료 날짜,datetime,제한 종료 날짜,2021-01-14 06:25:38.470,N
+1748,14,timediff,제한시간 (분 단위),int,제한시간 (분 단위),2021-01-14 06:25:38.470,N
+1748,15,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-01-14 06:25:38.470,N
+1933,4,npsn,NPSN,long,TOY에서 발행된 계정ID,2021-12-31 04:21:22.807,N
+1933,5,serviceareaid,게임계정 구분자,string,accountno로 이용자를 찾기 위한 보조 식별자,2021-12-31 04:21:22.807,N
+1875,9,rank,순위,long,인기 순위,2021-12-20 02:12:24.093,N
+1875,10,post_id,글번호,string,인기 게시글의 번호,2021-12-20 02:12:24.093,N
+1875,11,post_title,글제목,string,인기글의 제목,2021-12-20 02:12:24.093,N
+1875,12,post_url,글주소,string,해당 인기글로 바로 연결되는 url 주소,2021-12-20 02:12:24.093,N
+1875,13,worldname,서버명,string,해당 인기글 작성 유저 캐릭터의 메이플스토리의 서버명,2021-12-20 02:12:24.093,N
+1772,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-02-05 08:21:29.723,N
+1772,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-02-05 08:21:29.723,N
+1772,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-02-05 08:21:29.723,N
+1772,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-02-05 08:21:29.723,N
+1772,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-02-05 08:21:29.723,N
+1772,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-02-05 08:21:29.723,N
+1772,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-02-05 08:21:29.723,N
+1772,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-02-05 08:21:29.723,N
+1772,8,worldid,게임 서버,string,게임 서버 구분자,2021-02-05 08:21:29.723,N
+1772,9,dateid,주차별아이디,int,주차별아이디,2021-02-05 08:21:29.723,N
+1772,10,regionid,지역아이디,int,지역아이디,2021-02-05 08:21:29.723,N
+1772,11,gameid,게임아이디,int,게임아이디,2021-02-05 08:21:29.723,N
+1933,6,characterid,캐릭터 ID,string,캐릭터를 식별하는 유니크한(UID) 값,2021-12-31 04:21:22.807,N
+1933,7,serviceid,서비스아이디,long,게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행),2021-12-31 04:21:22.807,N
+1772,12,ct_score,누적시간 점수,float,누적시간 점수,2021-02-05 08:21:29.723,N
+1772,13,rt_score,최근시간 점수,float,최근시간 점수,2021-02-05 08:21:29.723,N
+1772,14,st_score,지속이용 점수,float,지속이용 점수,2021-02-05 08:21:29.723,N
+1630,0,sdate,집계일,timestamp,집계 일자 (yyyy-MM-dd hh:mm:ss),2021-02-10 01:00:16.300,N
+1630,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-02-10 01:00:16.300,N
+1630,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-02-10 01:00:16.300,N
+1630,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-02-10 01:00:16.300,N
+1630,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-02-10 01:00:16.300,N
+1630,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-02-10 01:00:16.300,N
+1630,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-02-10 01:00:16.300,N
+1630,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-02-10 01:00:16.300,N
+1630,8,worldid,게임 서버,string,게임 서버 구분자,2021-02-10 01:00:16.300,N
+1630,9,dw_game_code,IDC 게임 코드,string,idc DW에서 발급/ 관리하는 게임코드 게임 정보 참조: nxdim.dbo.d_pc_serviceid_dwgamecode_info,2021-02-10 01:00:16.300,N
+1763,13,matchendtype,매치 종료 유형,string,"매치 종료 유형(정상, 중도퇴장, 비정상종료, 탈주 등)",2021-08-26 04:33:13.510,N
+1763,14,matchendtype_desc,매치 종료 유형 설명,string,매치 종료 유형의 메타 정보. 메타정보가 없을 경우 matchendtype 과 동일,2021-08-26 04:33:13.510,N
+1763,15,matchtime,매치 내 경과 시간,integer,매치 내 경과 시간 (매치 시작시점부터 초단위),2021-08-26 04:33:13.510,N
+1763,16,matchid,매치 id,string,매치 id (시스템단위 matchid와 동일),2021-08-26 04:33:13.510,N
+1763,17,createdate_kst,KST 기준 NXLog 생성시각,timestamp,KST 기준 NXLog 생성시각,2021-08-26 04:33:13.510,N
+1763,18,loadingtime,데이터 적재 일시,timestamp,DB에 집계된 시간,2021-08-26 04:33:13.510,N
+1695,10,payamt_nexonsn,nexonsn 기준 월 과금액,numeric,nexonsn 기준 월 과금액 (※PRIME의 과금액은 FO4M 의 과금액을 일부 합산하여 산정합니다),2021-08-26 04:37:11.233,N
+1695,11,payamt_identitysn,identitysn 기준 월 과금액,numeric,identitysn 기준 월 과금액 (※PRIME의 과금액은 FO4M 의 과금액을 일부 합산하여 산정합니다),2021-08-26 04:37:11.233,N
+1695,12,payamt_frac,과금 의존도,numeric,동월의 nexonsn 기준 월 과금액에 identitysn 기준 월 과금액을 나눈 값 ( payamt_nexonsn / payamt_identitysn = payamt_frac ),2021-08-26 04:37:11.233,N
+1758,0,idx,인덱스,int,Row 인덱스,2021-01-18 01:29:20.627,N
+1758,1,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-18 01:29:20.627,N
+1758,2,hh,로그 생성 시간,date,"timezone 기준 로그 생성시간(""hh"")",2021-01-18 01:29:20.627,N
+1758,3,timezone,집계 시간대,string,KST (Korea Standard Time),2021-01-18 01:29:20.627,N
+1758,4,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-18 01:29:20.627,N
+1758,5,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-01-18 01:29:20.627,N
+1758,6,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-18 01:29:20.627,N
+1758,7,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-18 01:29:20.627,N
+1758,8,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-18 01:29:20.627,N
+1758,9,serviceid,서비스아이디,string,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-18 01:29:20.627,N
+1758,10,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-18 01:29:20.627,N
+1758,11,upfeature,LBD 탐지툴 이름,string,LBD 탐지룰 이름,2021-01-18 01:29:20.627,N
+1758,12,recipes,적용된 LBD 모델 이름,string,적용된 LBD 모델이름 JSON 리스트,2021-01-18 01:29:20.627,N
+1758,13,extra,탐지된 유저의 추가 정보,string,탐지된 유저의 추가정보 JSON 데이터,2021-01-18 01:29:20.627,N
+1758,14,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2021-01-18 01:29:20.627,N
+1751,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-01-29 02:52:18.843,N
+1751,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-01-29 02:52:18.843,N
+1751,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-01-29 02:52:18.843,N
+1751,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-01-29 02:52:18.843,N
+1751,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-01-29 02:52:18.843,N
+1751,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-01-29 02:52:18.843,N
+1751,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-01-29 02:52:18.843,N
+1751,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-01-29 02:52:18.843,N
+1751,8,worldid,게임 서버,string,게임 서버 구분자,2021-01-29 02:52:18.843,N
+1751,9,n8indexsn,인덱스 번호,long,인덱스키,2021-01-29 02:52:18.843,N
+1751,10,dtcreatedate,로그 생성일,datetime,로그 생성일(mlt_Basic.isAdminBlock 설정시점),2021-01-29 02:52:18.843,N
+1751,11,stradminid,어드민블럭 설정한 운영자 아이디,string,어드민블럭 설정한 운영자 아이디,2021-01-29 02:52:18.843,N
+1751,12,n1accesscode,어드민블럭 설정 경로,int,"1: 백오피스, 2: NCS, 3:이메일도용처리시, 4: 넥슨ID변경",2021-01-29 02:52:18.843,N
+1751,13,is_block,어드민블럭 여부,int,"제재/해제 여부 (0:해제, 1:제재)",2021-01-29 02:52:18.843,N
+1751,14,strdesc,설정 사유,string,어드민블럭 설정 사유,2021-01-29 02:52:18.843,N
+1751,15,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-01-29 02:52:18.843,N
+1377,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-18 06:55:37.650,N
+1377,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-01-18 06:55:37.650,N
+1377,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-18 06:55:37.650,N
+1377,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-01-18 06:55:37.650,N
+1377,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-18 06:55:37.650,N
+1377,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-18 06:55:37.650,N
+1276,9,clientip,IP,string,최종 접속 IP 주소,2021-04-02 08:49:56.807,N
+1276,10,ostype,OS 종류,string,최종 접속 OS 종류 (Android/iOS),2021-04-02 08:49:56.807,N
+1276,11,osversion,OS 버전,string,OS 버전 상세 정보,2021-04-02 08:49:56.807,N
+1276,12,marketid,마켓 종류,string,"최종 접속 마켓 종류 (GoogleStore, AppleStore 등))",2021-04-02 08:49:56.807,N
+1276,13,countrycode,국가 코드,string,최종 접속 국가 코드,2021-04-02 08:49:56.807,N
+1276,14,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-04-02 08:49:56.807,N
+1695,13,loadingtime,데이터 적재 일시,timestamp,DB에 집계된 시간,2021-08-26 04:37:11.233,N
+1753,9,UVP,UVP,int,"피파온라인4 유저별 등급 점수 (0~100 점), 높을수록 상위 등급",2021-01-15 07:08:00.070,N
+1753,10,Grade_A,Grade A,int,"구매등급(1~11등급), 낮을수록 상위등급",2021-01-15 07:08:00.070,N
+1753,11,Grade_T,Grade T,int,"접속등급(1~11등급), 낮을수록 상위등급",2021-01-15 07:08:00.070,N
+1753,12,Grade_P,Grade P,int,"PC방등급(1~11등급), 낮을수록 상위등급",2021-01-15 07:08:00.070,N
+1753,13,Star,Star,nvarchar,"FO3 당시 운영팀에서 참고하던 지표
+★★★★★ : 구매 접속 모두 높은 그룹 - [ 구매 1~3등급 & (PC방 or 접속등급이 1~3등급) ]
+★★★ : 매출에 비해, 접속등급이 낮은 그룹 - [ 구매 1~3등급 & (PC방 and 접속등급이 4~10등급) ]
+★ : 접속등급은 높지만, 매출등급이 낮은 그룹 - [ 구매 4~10등급 & (PC방 or 접속등급이 1~3등급) ]
+NULL : 기타유저",2021-01-15 07:08:00.070,N
+1753,14,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-01-15 07:08:00.070,N
+1884,17,flag,신규/복귀 플레그,nvarchar(100),신규/복귀 구분 값 . 복귀유저 분류방법에 대한 식별자가 2인 경우(flag_logic = 2) 모두 NULL,2021-12-08 09:23:17.770,N
+1884,18,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-12-08 09:23:17.770,N
+1869,0,sdate,집계일,timestamp,집계 일자 (yyyy-MM-dd hh:mm:ss)),2021-07-09 06:45:31.570,N
+1719,0,sdatetime,집계일,timestamp,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-19 08:13:30.463,N
+1719,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-01-19 08:13:30.467,N
+1869,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-07-09 06:45:31.570,N
+1869,2,toy_serviceid,TOY 서비스아이디,long,TOY 서비스 아이디,2021-07-09 06:45:31.570,N
+1869,3,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-07-09 06:45:31.570,N
+1869,4,co,접속 클라이언트 국가코드,string,유저가 당일 접속 클라이언트 국가코드,2021-07-09 06:45:31.570,N
+1869,5,co_currencycode,접속 클라이언트 국가의 통화 리스트,string,유저가 당일 접속 클라이언트 국가의 통화 리스트,2021-07-09 06:45:31.570,N
+1869,6,ordernumber,구글 결제 주문 번호,string,유저가 구글 결제한 주문 번호,2021-07-09 06:45:31.570,N
+1869,7,pay_currencycode,구글 결제 화폐 코드,string,유저가 구글 결제한 화폐 코드,2021-07-09 06:45:31.570,N
+1869,8,pay_price,구글 결제 금액,string,유저가 구글 결제한 금액,2021-07-09 06:45:31.570,N
+1869,9,pay_chargedatetime,구글 결제 시간,timestamp,유저가 구글 결제한 시간,2021-07-09 06:45:31.570,N
+1869,10,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-07-09 06:45:31.570,N
+1911,12,frdrcm_interest,추천된 게임 관심도,integer,추천된 게임 관심도 (세부 질문 컨플참조),2021-10-22 05:08:44.827,N
+1911,13,frdrcm_info,추천된 게임 정보 탐색 강도,integer,추천된 게임 정보 탐색 강도  (세부 질문 컨플참조),2021-10-22 05:08:44.827,N
+1911,14,frdrcm_play,추천된 게임 플레이 강도,integer,추천된 게임 플레이 강도 (세부 질문 컨플참조),2021-10-22 05:08:44.827,N
+1911,15,is_superspread,슈퍼전파자 유저 여부,integer,"슈퍼전파자 유저 여부 (1: 해당, 0: 비해당 / 세부 기준 컨플참조)",2021-10-22 05:08:44.827,N
+1911,16,is_openmind,오픈마인드 유저 여부,integer,"오픈마인드 유저 여부 (1: 해당, 0: 비해당 / 세부 기준 컨플참조)",2021-10-22 05:08:44.827,N
+1911,17,createdate,설문 응답일,date,설문 응답일,2021-10-22 05:08:44.827,N
+1911,18,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-10-22 05:08:44.827,N
+1793,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-10-29 03:28:18.240,N
+1873,5,serviceareaid,게임계정 구분자,nvarchar(max),accountno로 이용자를 찾기 위한 보조 식별자. characterid 기준 집계여서 !notapplicable@로 입력,2021-08-26 04:26:41.347,N
+1873,6,characterid,캐릭터 ID,nvarchar(max),캐릭터를 식별하는 유니크한(UID) 값,2021-08-26 04:26:41.347,N
+1793,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-10-29 03:28:18.240,N
+1779,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-08-19 05:29:12.240,N
+1779,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-08-19 05:29:12.240,N
+1779,2,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-08-19 05:29:12.240,N
+1793,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-10-29 03:28:18.240,N
+1793,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-10-29 03:28:18.240,N
+1793,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-10-29 03:28:18.240,N
+1793,8,worldid,게임 서버,string,게임 서버 구분자,2021-10-29 03:28:18.240,N
+1793,9,access_interval,active 접속 주기,float,유저가 최근 3개월간 접속한 정보를 바탕으로 확률 추정한 접속 주기,2021-10-29 03:28:18.240,N
+1793,10,access_upperbound,접속 주기 상한,float,유저가 최근 3개월간 접속한 정보를 바탕으로 확률 추정한 접속 주기 상한,2021-10-29 03:28:18.240,N
+1793,11,prev_connectdate,마지막 이전 접속일,date,유저가 마지막 이전에 접속한 일자,2021-10-29 03:28:18.240,N
+1793,12,last_connectdate,마지막 접속일,date,유저가 마지막으로 접속한 일자,2021-10-29 03:28:18.240,N
+1793,13,last_accessinterval,마지막(이전) 접속 경과일,integer,마지막(또는 마지막 이전) 접속 이후 경과일로 유저 서치용 마지막(이전) 접속 경과일로 * 마지막 접속일이 업데이트 된 정보는 : {last_accessinterval} = 마지막 이전 접속일 - 집계일 * 마지막 접속일이 업데이트 안된 정보 : {last_accessinterval} = 마지막 접속일 - 집계일 으로 산출됩니다.,2021-10-29 03:28:18.240,N
+1793,14,usersearch_tag,활성화 상태,string,유저 서치용 태그로 유저의 활성화 상태를 설명합니다. 활성화 상태가 inactive일 경우 유저의 접속 빈도가 줄어든 것으로 유추할 수 있습니다. 접속 주기 상한보다 마지막(이전) 접속 경과일이 크더라도 당일에 접속하면 active로 변경됩니다.,2021-10-29 03:28:18.240,N
+1793,15,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-10-29 03:28:18.240,N
+1750,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-01-18 01:30:12.067,N
+1750,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-01-18 01:30:12.067,N
+1750,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-01-18 01:30:12.067,N
+1750,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-01-18 01:30:12.067,N
+1750,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-01-18 01:30:12.067,N
+1750,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-01-18 01:30:12.067,N
+1750,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-01-18 01:30:12.067,N
+1750,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-01-18 01:30:12.067,N
+1750,8,worldid,게임 서버,string,게임 서버 구분자,2021-01-18 01:30:12.067,N
+1750,9,listtype,리스트 유형,string,"리스트 유형(id, ip 두가지 존재)",2021-01-18 01:30:12.067,N
+1750,10,blacklist,블랙리스트,string,블랙리스트,2021-01-18 01:30:12.067,N
+1750,11,connecttype,접속 유형,string,"nexon, neople, naver..등 (리스트 유형이 id일때만 값 존재)",2021-01-18 01:30:12.067,N
+1750,12,startdatetime,제한 시작 시간,datetime,제한 시작 시간,2021-01-18 01:30:12.067,N
+1750,13,expiredatetime,제한 종료 날짜,datetime,제한 종료 날짜,2021-01-18 01:30:12.067,N
+1750,14,timediff,제한시간 (분 단위),int,제한시간 (분 단위),2021-01-18 01:30:12.067,N
+1750,15,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-01-18 01:30:12.067,N
+1898,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-10-21 07:50:03.647,N
+1898,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-10-21 07:50:03.647,N
+1898,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-10-21 07:50:03.647,N
+1898,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-10-21 07:50:03.647,N
+1898,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-10-21 07:50:03.647,N
+1898,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-10-21 07:50:03.647,N
+1898,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-10-21 07:50:03.647,N
+1898,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-10-21 07:50:03.647,N
+1898,8,worldid,게임 서버,string,게임 서버 구분자,2021-10-21 07:50:03.647,N
+1898,9,charname,게임 캐릭터 이름,string,게임 캐릭터 이름,2021-10-21 07:50:03.647,N
+1898,10,relic_changebef,유물 봉인 해제 전 단계,string,유물 봉인 해제 전 단계,2021-10-21 07:50:03.647,N
+1898,11,relic_changeaft,유물 봉인 해제 후 단계,string,유물 봉인 해제 후 단계,2021-10-21 07:50:03.647,N
+1898,12,relic_latest_createdate_kst,유물 봉인 해제 일시,timestamp,유물 봉인 해제 일시,2021-10-21 07:50:03.647,N
+1898,13,reborn_weapon_name,최근 각성한 장비 이름,string,최근 각성한 장비 이름,2021-10-21 07:50:03.647,N
+1898,14,reborn_weapon_type,최근 각성한 장비 종류,string,최근 각성한 장비 종류,2021-10-21 07:50:03.647,N
+1898,15,reborn_weapon_grade,최근 각성한 장비 등급,string,최근 각성한 장비 등급,2021-10-21 07:50:03.647,N
+1898,16,reborn_latest_createdate_kst,장비 각성 일시,timestamp,장비 각성 일시,2021-10-21 07:50:03.647,N
+1898,17,enhanced_weapon_name,고강화 장비 이름,string,고강화 장비 이름,2021-10-21 07:50:03.647,N
+1898,18,enhanced_weapon_type,고강화 장비 종류,string,고강화 장비 종류,2021-10-21 07:50:03.647,N
+1720,8,worldid,게임 서버,string,게임 서버 구분자,2021-10-20 08:21:09.833,N
+1720,9,regionid,리전,string,리전 정보,2021-10-20 08:21:09.833,N
+1720,10,first_pmt_lv,최초 과금 레벨,long,최초 과금 캐릭터 레벨,2021-10-20 08:21:09.833,N
+1720,11,last_pmt_lv,최종 과금 레벨,long,최종 과금 캐릭터 레벨,2021-10-20 08:21:09.833,N
+1720,12,first_pmt_pid,최초 과금 상품,string,최초 과금 PID,2021-10-20 08:21:09.833,N
+1720,13,last_pmt_pid,최종 과금 상품,string,최종 과금 PID,2021-10-20 08:21:09.833,N
+1442,13,churnratio,이탈 위험도,float,이탈일을 평균 접속 주기로 나눈 값,2021-07-15 02:53:30.003,N
+1442,14,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-07-15 02:53:30.003,N
+1720,14,first_pmt_dt,최초 과금 일자,date,최초 과금 일자,2021-10-20 08:21:09.833,N
+1720,15,last_pmt_dt,최종 과금 일자,date,최종 과금 일자,2021-10-20 08:21:09.833,N
+1603,17,question_view_content,GOLLA설문의 질문에 대한 응답,string,질문에 대한 응답 ID 에 매칭되는 객관지,2021-12-01 06:39:51.513,N
+1603,18,answer_etc,GOLLA설문의 질문에 대한 기타응답,string,질문에 대한 기타응답,2021-12-01 06:39:51.513,N
+1603,19,golla_service_id,GOLLA서비스 no.,long,설문조사 서비스 no. survey_service 테이블의 service_id 의 값,2021-12-01 06:39:51.513,N
+1603,20,golla_service_name,GOLLA서비스 명,string,설문조사 서비스 명. survey_service 테이블의 service_name 의 값,2021-12-01 06:39:51.513,N
+1603,21,answer_content_list_exploded2_question_view_id,GOLLA설문의 질문에 대한 응답지에 2차 질문내용이 있을 경우의 질문지 ID,string,질문에 대한 응답지에 2차 질문내용이 있을 경우의 질문지 ID,2021-12-01 06:39:51.513,N
+1603,22,answer_content_list_exploded2_question_view_content,GOLLA설문의 질문에 대한 응답지에 2차 질문내용이 있을 경우의 질문지,string,질문에 대한 응답지에 2차 질문내용이 있을 경우의 질문지,2021-12-01 06:39:51.513,N
+1603,23,answer_content_list_exploded2_question_view_answer,GOLLA설문의 질문에 대한 응답지에 2차 질문내용이 있을 경우의 그에 대한 응답,string,질문에 대한 응답지에 2차 질문내용이 있을 경우의 그에 대한 응답,2021-12-01 06:39:51.513,N
+1603,24,answer_content_list_exploded2_matrix_answer_contentlist,GOLLA설문의 질문에 대한 응답지에 2차 행렬질문이 있을경우 그에 대한 응답 ID,string,질문에 대한 응답지에 2차 행렬질문이 있을경우 그에 대한 응답 ID,2021-12-01 06:39:51.513,N
+1677,8,worldid,게임 서버,string,게임 서버 구분자. PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력,2021-08-26 04:38:15.900,N
+1677,9,identitysn,신상키,integer,"본인 인증에서 신상을 구분하기 위한 키(주민번호 같은 존재), 구분이 어려울 땐 -1로 입력",2021-08-26 04:38:15.900,N
+1879,11,banendtime,제재 해제 시각,TIMESTAMP,제재 해제 시각,2021-07-21 05:44:17.540,N
+1800,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-03-26 06:57:40.160,N
+1800,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-03-26 06:57:40.160,N
+1800,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-03-26 06:57:40.160,N
+1800,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-03-26 06:57:40.160,N
+1800,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-03-26 06:57:40.160,N
+1800,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-03-26 06:57:40.160,N
+1800,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-03-26 06:57:40.160,N
+1800,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-03-26 06:57:40.160,N
+1879,12,loadingtime,데이터 적재 일시,TIMESTAMP,DB에 집계된 시간,2021-07-21 05:44:17.540,N
+1786,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-03-16 04:48:39.640,N
+1786,1,timezone,집계 시간대,varchar,KST (Korea Standard Time),2021-03-16 04:48:39.640,N
+1786,2,accountno,AccountNo,varchar,게임에서 발행한 계정ID,2021-03-16 04:48:39.640,N
+1786,3,nexonsn,NexonSN,bigint,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-03-16 04:48:39.640,N
+1786,4,npsn,NPSN,bigint,TOY에서 발행된 계정ID,2021-03-16 04:48:39.640,N
+1786,5,serviceareaid,게임계정 구분자,varchar,accountno로 이용자를 찾기 위한 보조 식별자,2021-03-16 04:48:39.640,N
+1776,0,sdate,집계일,datetime,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-02-10 01:50:04.637,N
+1776,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-02-10 01:50:04.637,N
+1776,2,serviceareaid,게임 구분자,string,게임을 찾기 위한 보조 식별자,2021-02-10 01:50:04.637,N
+1776,3,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-02-10 01:50:04.637,N
+1776,4,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-02-10 01:50:04.637,N
+1776,5,objectid,Object에 발급한 ID,string,Object에 발급한 ID,2021-02-10 01:50:04.637,N
+1776,6,objecttype,objectid를 설명해주는 속성입니다.,string,objectid를 설명해주는 속성입니다.,2021-02-10 01:50:04.637,N
+1776,7,rank,랭크,int,랭크,2021-02-10 01:50:04.637,N
+1776,8,nexonsn,nexonsn,bigint,nexonsn,2021-02-10 01:50:04.637,N
+1776,9,accountno,어카운트 정보,string,어카운트 정보,2021-02-10 01:50:04.637,N
+1776,10,nickname,닉네임,string,닉네임,2021-02-10 01:50:04.637,N
+1776,11,userlevel,레벨,bigint,레벨,2021-02-10 01:50:04.637,N
+1776,12,totaltime,총 플레이시간,bigint,총 플레이시간,2021-02-10 01:50:04.637,N
+1776,13,totalmatches,총 매치 수,bigint,총 매치 수,2021-02-10 01:50:04.637,N
+1769,10,processorcore,프로세서(CPU) 코어 수,long,프로세서(CPU) 코어 수,2021-01-29 03:49:09.483,N
+1769,11,ramsize,램 사이즈,long,램의 사양(단위 Gigabyte),2021-01-29 03:49:09.483,N
+1769,12,videoname_array,GPU 정보,string,GPU 제품을 어레이 형태로 표시,2021-01-29 03:49:09.483,N
+1769,13,osname,OS 명,string,OS 명칭,2021-01-29 03:49:09.483,N
+1769,14,osbit,OS 비트,string,OS 비트 정보,2021-01-29 03:49:09.483,N
+1769,15,volumesize,하드 용량,long,하드 용량 정보,2021-01-29 03:49:09.483,N
+1769,16,soundname_array,사운드 장치 정보,string,사운드 장치 정보를 어레이로 제공,2021-01-29 03:49:09.483,N
+1769,17,pcbang_name,피씨방 이름,string,피씨방 이름,2021-01-29 03:49:09.483,N
+1769,18,sido,시/도,string,피씨방이 위치한 시/도,2021-01-29 03:49:09.483,N
+1769,19,gu,구,string,피씨방이 위치한 구,2021-01-29 03:49:09.483,N
+1769,20,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-01-29 03:49:09.483,N
+1558,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-02-04 01:50:05.620,N
+1558,1,timezone,집계 시간대,string,집계 시간대 : KST,2021-02-04 01:50:05.620,N
+1558,2,accountno,게임 계정,string,게임에서 발행한 계정ID. NexonSN 기준 집계여서 -1 로 입력,2021-02-04 01:50:05.620,N
+1558,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함).,2021-02-04 01:50:05.620,N
+1558,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자. NexonSN 기준 집계여서 -1로 입력,2021-02-04 01:50:05.620,N
+1776,14,win,승,bigint,승,2021-02-10 01:50:04.637,N
+1776,15,draw,무,bigint,무,2021-02-10 01:50:04.637,N
+1776,16,lose,패,bigint,패,2021-02-10 01:50:04.637,N
+1776,17,winratio,승률,float,승률,2021-02-10 01:50:04.637,N
+1776,18,kills,킬,bigint,킬,2021-02-10 01:50:04.637,N
+1776,19,deaths,데스,bigint,데스,2021-02-10 01:50:04.637,N
+1776,20,kda,KDA,float,KDA,2021-02-10 01:50:04.637,N
+1786,6,characterid,캐릭터 ID,varchar,캐릭터를 식별하는 유니크한(UID) 값,2021-03-16 04:48:39.640,N
+1786,7,serviceid,서비스아이디,bigint,게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행),2021-03-16 04:48:39.640,N
+1786,8,worldid,게임 서버 정보,string,characterid로 캐릭터를 찾기 위한 보조 식별자,2021-03-16 04:48:39.640,N
+1786,9,worldname,게임 서버 명,varchar,worldid 메타 활용한 캐릭터 기준의 최종 서버명,2021-03-16 04:48:39.640,N
+1711,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-01-29 02:25:29.287,N
+1711,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-01-29 02:25:29.287,N
+1711,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-01-29 02:25:29.287,N
+1711,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-01-29 02:25:29.287,N
+1711,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-01-29 02:25:29.287,N
+1711,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-01-29 02:25:29.287,N
+1711,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-01-29 02:25:29.287,N
+1711,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-01-29 02:25:29.287,N
+1711,8,worldid,게임 서버,string,게임 서버 구분자,2021-01-29 02:25:29.287,N
+1711,9,loadingtime,데이터 적재 일시,datetime,DB에 실제로 데이터가 적재되는 상세 시간 정보,2021-01-29 02:25:29.287,N
+1642,0,sdate,집계일,timestamp,집계 일자 (yyyy-MM-dd hh:mm:ss),2021-01-29 02:40:09.517,N
+1642,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-01-29 02:40:09.517,N
+1642,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-01-29 02:40:09.517,N
+1642,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-01-29 02:40:09.517,N
+1719,11,adm_nm,API 의 응답정보 중 행정구역명,string,SGIS 인구통계 조건검색 API 의 응답정보 중 한국행정구역분류코드 adm_cd 값에 해당하는 행정구역명,2021-01-19 08:13:30.467,N
+1719,12,avg_age,API 의 응답정보 중 검색인구 평균나이,double,SGIS 인구통계 조건검색 API 의 응답정보 중 검색인구 평균나이 avg_age 값,2021-01-19 08:13:30.467,N
+1719,13,population,API 의 응답정보 중 인구수,integer,SGIS 인구통계 조건검색 API 의 응답정보 중 인구수 population 값,2021-01-19 08:13:30.467,N
+1719,14,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2021-01-19 08:13:30.467,N
+1642,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-01-29 02:40:09.517,N
+1642,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-01-29 02:40:09.517,N
+1642,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-01-29 02:40:09.517,N
+1642,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-01-29 02:40:09.517,N
+1642,8,worldid,게임 서버,string,게임 서버 구분자,2021-01-29 02:40:09.517,N
+1642,9,pay_sn,구매 시퀀스 값,long,LSNexonCash.dbo.Usage의 sn값,2021-01-29 02:40:09.517,N
+1642,10,billingusersn,빌링 UserSN,long,LSNexonCash.dbo.UserInfo 의 SN 값  NXMember.dbo.F_Member_Master 의 BillingUserSN,2021-01-29 02:40:09.517,N
+1642,11,orderid,주문id,string,주문id,2021-01-29 02:40:09.517,N
+1642,12,paidamount,유료 구매액,numeric,유료 구매액,2021-01-29 02:40:09.517,N
+1642,13,freeamount,무료 구매액,numeric,무료 구매액,2021-01-29 02:40:09.517,N
+1642,14,cnt,구매량,long,구매량,2021-01-29 02:40:09.517,N
+1642,15,itemno,아이템 번호,long,아이템 번호,2021-01-29 02:40:09.517,N
+1642,16,itemname,아이템 이름,string,아이템 이름,2021-01-29 02:40:09.517,N
+1642,17,dw_game_code,게임 코드,long,게임 코드,2021-01-29 02:40:09.517,N
+1642,18,gamename,게임 이름,string,게임 이름,2021-01-29 02:40:09.517,N
+1642,19,pay_nickname,구매한 유저 닉네임,string,구매한 유저 닉네임,2021-01-29 02:40:09.517,N
+1642,20,recive_nickname,선물받은 유저 닉네임,string,선물받은 유저 닉네임,2021-01-29 02:40:09.517,N
+1642,21,recive_nexonsn,선물받은 유저 nexonsn,long,선물받은 유저 nexonsn,2021-01-29 02:40:09.517,N
+1642,22,recive_charactercreatedate,선물받은 유저 캐릭터 생성일,timestamp,선물받은 유저 캐릭터 생성일,2021-01-29 02:40:09.517,N
+1642,23,charactermoney1,캐릭터 재화1,numeric,캐릭터 재화1,2021-01-29 02:40:09.517,N
+1642,24,charactermoney2,캐릭터 재화2,numeric,캐릭터 재화2,2021-01-29 02:40:09.517,N
+1642,25,loadingtime,데이터 적재 일시,timestamp,DB에 집계된 시간,2021-01-29 02:40:09.517,N
+1710,0,sdatetime,집계기준 시간,datetime,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-29 03:29:33.877,N
+1710,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-01-29 03:29:33.877,N
+1710,2,objectid,오브젝트 ID,string,NMP 게임 코드 정보,2021-01-29 03:29:33.877,N
+1710,3,objecttype,objectid를 설명해주는 속성입니다.,string,game_name(objectid) 기준 집계이므로 !notapplicable@로 입력,2021-01-29 03:29:33.877,N
+1710,4,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, 건물관리번호(objectid) 기준 집계여서 !notapplicable@로 입력",2021-01-29 03:29:33.877,N
+1710,5,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), 건물관리번호(objectid) 기준 집계여서 -1로 입력",2021-01-29 03:29:33.877,N
+1710,6,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, 건물관리번호(objectid) 기준 집계여서 !notapplicable@로 입력",2021-01-29 03:29:33.877,N
+1710,7,game_name,게임 이름,string,게임 이름,2021-01-29 03:29:33.877,N
+1710,8,game_DT,게임 총 DT,long,게임 총 DT,2021-01-29 03:29:33.877,N
+1710,9,game_n_seg_id,총 게임 유저수,long,총 게임 유저수,2021-01-29 03:29:33.877,N
+1710,10,Rank_DT,순위(기준: DT),long,순위(기준: DT),2021-01-29 03:29:33.877,N
+1710,11,Rank_USER,순위(기준: 유저),long,순위(기준: 유저),2021-01-29 03:29:33.877,N
+1710,12,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-01-29 03:29:33.877,N
+1652,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-08-11 04:18:55.990,N
+1652,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-08-11 04:18:55.990,N
+1652,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-08-11 04:18:55.990,N
+1652,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-08-11 04:18:55.990,N
+1652,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-08-11 04:18:55.990,N
+1652,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-08-11 04:18:55.990,N
+1652,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-08-11 04:18:55.990,N
+1873,7,serviceid,서비스아이디,bigint,게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행),2021-08-26 04:26:41.347,N
+1873,8,worldid,게임 서버 정보,nvarchar(max),characterid로 캐릭터를 찾기 위한 보조 식별자,2021-08-26 04:26:41.347,N
+1873,9,ban_gamename,제재대상 게임서비스 명,nvarchar(max),제재되는 게임서비스의 게임명. serviceid 와 매칭되는 게임명임,2021-08-26 04:26:41.347,N
+1873,10,ban_tag,제재태그값,nvarchar(max),제재성격과 제재방식에 따른 태깅값,2021-08-26 04:26:41.347,N
+1568,0,sdatetime,집계기준 시간,datetime2,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-29 05:11:35.377,N
+1568,1,timezone,집계 시간대,nvarchar,KST (Korea Standard Time),2021-01-29 05:11:35.377,N
+1568,2,objectid,건물관리번호,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [건물관리번호] 필드값,2021-01-29 05:11:35.377,N
+1568,3,objecttype,objectid를 설명해주는 속성입니다.,nvarchar,건물관리번호(objectid) 기준 집계이므로 !notapplicable@로 입력,2021-01-29 05:11:35.377,N
+1568,4,serviceareaid,게임계정 구분자,nvarchar,"accountno로 이용자를 찾기 위한 보조 식별자, 건물관리번호(objectid) 기준 집계여서 !notapplicable@로 입력",2021-01-29 05:11:35.377,N
+1568,5,serviceid,서비스아이디,bigint,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), 건물관리번호(objectid) 기준 집계여서 -1로 입력",2021-01-29 05:11:35.377,N
+1568,6,worldid,게임 서버 정보,nvarchar,"characterid로 캐릭터를 찾기 위한 보조 식별자, 건물관리번호(objectid) 기준 집계여서 !notapplicable@로 입력",2021-01-29 05:11:35.377,N
+1568,7,zipcode,우편번호,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [우편번호] 필드값,2021-01-29 05:11:35.377,N
+1568,8,sido,시도,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [시도] 필드값,2021-01-29 05:11:35.377,N
+1568,9,sido_english,시도영문,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [시도영문] 필드값,2021-01-29 05:11:35.377,N
+1568,10,sigungu,시군구,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [시군구] 필드값,2021-01-29 05:11:35.377,N
+1568,11,sigungu_english,시군구영문,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [시군구영문] 필드값,2021-01-29 05:11:35.377,N
+1568,12,eubmyeon,읍면,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [읍면] 필드값,2021-01-29 05:11:35.377,N
+1568,13,eubmyeon_english,읍면영문,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [읍면영문] 필드값,2021-01-29 05:11:35.377,N
+1568,14,eubmyeondong,읍면동일련번호,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [읍면동일련번호] 필드값,2021-01-29 05:11:35.377,N
+1568,15,roadcode,도로명코드,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [도로명코드] 필드값,2021-01-29 05:11:35.377,N
+1568,16,road_name,도로명,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [도로명] 필드값,2021-01-29 05:11:35.377,N
+1568,17,road_name_english,도로명영문,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [도로명영문] 필드값,2021-01-29 05:11:35.377,N
+1568,18,underground,지하여부,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [지하여부] 필드값,2021-01-29 05:11:35.377,N
+1568,19,building_bon,건물번호본번,float,epost.go.kr 에서 제공하는 우편번호 DB 의 [건물번호본번] 필드값,2021-01-29 05:11:35.377,N
+1568,20,building_bu,건물번호부번,float,epost.go.kr 에서 제공하는 우편번호 DB 의 [건물번호부번] 필드값,2021-01-29 05:11:35.377,N
+1568,21,sigungu_building_name,시군구용건물명,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [시군구용건물명] 필드값,2021-01-29 05:11:35.377,N
+1568,22,bjd,법정동코드,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [법정동코드] 필드값,2021-01-29 05:11:35.377,N
+1568,23,bjd_name,법정동명,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [법정동명] 필드값,2021-01-29 05:11:35.377,N
+1568,24,ri,리명,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [리명] 필드값,2021-01-29 05:11:35.377,N
+1568,25,dong_name,행정동명,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [행정동명] 필드값,2021-01-29 05:11:35.377,N
+1568,26,mountain,산여부,nvarchar,epost.go.kr 에서 제공하는 우편번호 DB 의 [산여부] 필드값,2021-01-29 05:11:35.377,N
+1568,27,jibeon_bon,지번본번,float,epost.go.kr 에서 제공하는 우편번호 DB 의 [지번본번] 필드값,2021-01-29 05:11:35.377,N
+1568,28,jibeon_bu,지번부번,float,epost.go.kr 에서 제공하는 우편번호 DB 의 [지번부번] 필드값,2021-01-29 05:11:35.377,N
+1568,29,loadingtime,데이터 적재 일시,datetime2,DB에 집계된 시간,2021-01-29 05:11:35.377,N
+1563,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-29 05:45:57.843,N
+1563,1,timezone,집계 시간대,varchar(100),KST (Korea Standard Time),2021-01-29 05:45:57.843,N
+1563,2,serviceid,서비스아이디,int,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-29 05:45:57.843,N
+1563,3,accountno,AccountNo,varchar(100),"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-29 05:45:57.843,N
+1563,4,nexonsn,NexonSN,bigint,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-01-29 05:45:57.843,N
+1563,5,npsn,NPSN,bigint,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-29 05:45:57.843,N
+1563,6,serviceareaid,게임계정 구분자,varchar(100),"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-29 05:45:57.843,N
+1563,7,characterid,캐릭터 ID,varchar(100),"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-29 05:45:57.843,N
+1563,8,worldid,게임 서버 정보,varchar(100),"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-29 05:45:57.843,N
+1873,11,*bansource/bantype*,*제재시스템/제재유형*,nvarchar(max),"NXLog 의 BanStatusChange 시점로그의 제재 시스템(bansource)과 제재 유형(bantype)을 결합한 문자열이 컬럼명이 되며, 제재 시스템과 제재 유형의 조합에 따른 경우의 수만큼  다수의 컬럼을 가짐. 값은 해당 제재 시작시각(banstarttime)과 제재 해제시각(banendtime)이 기입됨",2021-08-26 04:26:41.347,N
+1873,12,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-08-26 04:26:41.347,N
+1755,10,registrationdate,거래 시간,timestamp,"sell : 판매등록시간 , buy : 구매시간",2021-09-29 04:52:39.800,N
+1755,11,salesn,거래 식별자,string,"sell : 판매번호 , buy : 구매번호",2021-09-29 04:52:39.800,N
+1755,12,settlementdate,판매 시간,timestamp,"sell : 판매시간, buy : null",2021-09-29 04:52:39.800,N
+1755,13,spid,선수 식별자,integer,구매/판매한 선수 id,2021-09-29 04:52:39.800,N
+1755,14,grade,선수 등급,integer,구매/판매한 선수 등급,2021-09-29 04:52:39.800,N
+1718,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-01-27 05:41:46.717,N
+1718,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-01-27 05:41:46.717,N
+1718,2,accountno,게임 계정,string,"게임에서 발행한 계정ID, NexonSN 기준 집계여서 -1로 입력",2021-01-27 05:41:46.717,N
+1718,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-01-27 05:41:46.717,N
+1718,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자. NexonSN 기준 집계여서 -1로 입력,2021-01-27 05:41:46.717,N
+1718,5,serviceareaid,게임 계정 구분자,string,accountno로 이용자를 찾기 위한 보조 식별자. NexonSN 기준 집계여서 !notapplicable@로 입력,2021-01-27 05:41:46.717,N
+1718,6,characterid,게임 캐릭터 ID,string,캐릭터를 식별하는 유니크한(UID) 값. NexonSN 기준 집계여서 !notapplicable@로 입력,2021-01-27 05:41:46.717,N
+1718,7,serviceid,서비스아이디,long,게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행),2021-01-27 05:41:46.717,N
+1718,8,worldid,게임 서버,string,characterid로 캐릭터를 찾기 위한 보조 식별자. NexonSN 기준 집계여서 !notapplicable@로 입력,2021-01-27 05:41:46.717,N
+1718,9,zipcode_1,국내 우편번호(1순위),string,최빈도 접속IP 에 대한 위치추적 우편번호 (국내 우편번호 한정으로 해외일 경우 NULL),2021-01-27 05:41:46.717,N
+1718,10,sido_1,"시, 도(1순위)",string,"시, 도",2021-01-27 05:41:46.717,N
+1718,11,sigungu_1,시군구(1순위),string,시군구,2021-01-27 05:41:46.717,N
+1718,12,cnt_1,누적 횟수(1순위),long,누적 횟수(1순위),2021-01-27 05:41:46.717,N
+1718,13,zipcode_2,국내 우편번호(2순위),string,국내 우편번호(2순위),2021-01-27 05:41:46.717,N
+1718,14,sido_2,"시, 도(2순위)",string,"시, 도(2순위)",2021-01-27 05:41:46.717,N
+1718,15,sigungu_2,시군구(2순위),string,시군구(2순위),2021-01-27 05:41:46.717,N
+1718,16,cnt_2,누적 횟수(2순위),long,누적 횟수(2순위),2021-01-27 05:41:46.717,N
+1718,17,zipcode_3,국내 우편번호(3순위),string,국내 우편번호(3순위),2021-01-27 05:41:46.717,N
+1718,18,sido_3,"시, 도(3순위)",string,"시, 도(3순위)",2021-01-27 05:41:46.717,N
+1718,19,sigungu_3,시군구(3순위),string,시군구(3순위),2021-01-27 05:41:46.717,N
+1718,20,cnt_3,누적 횟수(3순위),long,누적 횟수(3순위),2021-01-27 05:41:46.717,N
+1718,21,zipcode_4,국내 우편번호(4순위),string,국내 우편번호(4순위),2021-01-27 05:41:46.717,N
+1718,22,sido_4,"시, 도(4순위)",string,"시, 도(4순위)",2021-01-27 05:41:46.717,N
+1718,23,sigungu_4,시군구(4순위),string,시군구(4순위),2021-01-27 05:41:46.717,N
+1718,24,cnt_4,누적 횟수(4순위),long,누적 횟수(4순위),2021-01-27 05:41:46.717,N
+1718,25,zipcode_5,국내 우편번호(5순위),string,국내 우편번호(5순위),2021-01-27 05:41:46.717,N
+1718,26,sido_5,"시, 도(5순위)",string,"시, 도(5순위)",2021-01-27 05:41:46.717,N
+1718,27,sigungu_5,시군구(5순위),string,시군구(5순위),2021-01-27 05:41:46.717,N
+1718,28,cnt_5,누적 횟수(5순위),long,누적 횟수(5순위),2021-01-27 05:41:46.717,N
+1718,29,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-01-27 05:41:46.717,N
+1755,15,value,선수 가치,integer,구매/판매한 선수 가치,2021-09-29 04:52:39.800,N
+1778,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-02-10 08:46:58.883,N
+1778,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-02-10 08:46:58.883,N
+1778,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-02-10 08:46:58.883,N
+1778,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-02-10 08:46:58.883,N
+1778,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-02-10 08:46:58.883,N
+1778,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-02-10 08:46:58.883,N
+1778,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-02-10 08:46:58.883,N
+1778,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-02-10 08:46:58.883,N
+1778,8,worldid,게임 서버,string,게임 서버 구분자,2021-02-10 08:46:58.883,N
+1778,9,totalamount,총 누적 과금액,long,총 누적 과금액,2021-02-10 08:46:58.883,N
+1778,10,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-02-10 08:46:58.883,N
+1755,16,hh,집계 시작 시간,int,집계 시작 시간,2021-09-29 04:52:39.800,N
+1755,17,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2021-09-29 04:52:39.800,N
+1757,0,sdate,집계일,timestamp,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-09-29 04:52:59.640,N
+1757,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-09-29 04:52:59.640,N
+1757,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-09-29 04:52:59.640,N
+1757,3,nexonsn,NexonSN,integer,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-09-29 04:52:59.640,N
+1757,4,npsn,NPSN,integer,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-09-29 04:52:59.640,N
+1757,5,accounttype,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-09-29 04:52:59.640,N
+1757,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-09-29 04:52:59.640,N
+1757,7,serviceid,서비스아이디,integer,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-09-29 04:52:59.640,N
+1757,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-09-29 04:52:59.640,N
+1558,5,serviceareaid,게임 계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, NexonSN 기준 집계여서 !notapplicable@로 입력",2021-02-04 01:50:05.620,N
+1558,6,characterid,게임 캐릭터 ID,string,characterid로 캐릭터를 찾기 위한 보조 식별자. NexonSN 기준 집계여서 !notapplicable@로 입력,2021-02-04 01:50:05.620,N
+1558,7,serviceid,서비스아이디,long,게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행). NexonSN 기준 집계여서 -1 로 입력,2021-02-04 01:50:05.620,N
+1558,8,worldid,게임 서버,string,characterid로 캐릭터를 찾기 위한 보조 식별자. NexonSN 기준 집계여서 !notapplicable@로 입력,2021-02-04 01:50:05.620,N
+1761,6,characterid,캐릭터 ID,nvarchar,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 07:43:27.787,N
+1761,7,serviceid,서비스아이디,bigint,랩스에서 발급하고 관리하는 게임 식별자,2021-01-28 07:43:27.787,N
+1761,8,worldid,게임 서버 정보,nvarchar,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 07:43:27.787,N
+1761,9,createdate,탐지 시각,datetime,탐지시각,2021-01-28 07:43:27.787,N
+1761,10,charlevel,캐릭터 레벨,bigint,캐릭터 레벨,2021-01-28 07:43:27.787,N
+1761,11,charname,캐릭터 이름,nvarchar,캐릭터명,2021-01-28 07:43:27.787,N
+1761,12,class,클래스,nvarchar,클래스,2021-01-28 07:43:27.787,N
+1761,13,fieldid,필드 아이디,bigint,필드 아이디,2021-01-28 07:43:27.787,N
+1761,14,model_name,모델명,nvarchar,모델명,2021-01-28 07:43:27.787,N
+1761,15,bot_user_prob,봇 확률,float,봇 확률,2021-01-28 07:43:27.787,N
+1761,16,normal_user_prob,일반 확률,float,봇이 아닐 확률,2021-01-28 07:43:27.787,N
+1761,17,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-01-28 07:43:27.787,N
+1767,0,sdate,집계일,timestamp,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-28 08:39:57.487,N
+1767,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-01-28 08:39:57.487,N
+1767,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-28 08:39:57.487,N
+1767,3,nexonsn,NexonSN,integer,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-01-28 08:39:57.487,N
+1767,4,npsn,NPSN,integer,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-28 08:39:57.487,N
+1767,5,accounttype,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 08:39:57.487,N
+1767,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 08:39:57.487,N
+1767,7,serviceid,서비스아이디,integer,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-28 08:39:57.487,N
+1767,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 08:39:57.487,N
+1767,9,result,강화 결과,string,강화 결과,2021-01-28 08:39:57.487,N
+1767,10,trydate,강화 시도 일시,timestamp,강화 시도 일시,2021-01-28 08:39:57.487,N
+1767,11,actionid,강화 ID,string,강화 ID,2021-01-28 08:39:57.487,N
+1767,12,spid,선수 ID,integer,선수 ID,2021-01-28 08:39:57.487,N
+1767,13,beforegrade,강화 시도 전 등급,integer,강화 시도 전 등급,2021-01-28 08:39:57.487,N
+1767,14,beforevalue,강화 시도 전 가치,integer,강화 시도 전 가치,2021-01-28 08:39:57.487,N
+1767,15,aftergrade,강화 시도 후 등급,integer,강화 시도 후 등급,2021-01-28 08:39:57.487,N
+1767,16,aftervalue,강화 시도 후 가치,integer,강화 시도 후 가치,2021-01-28 08:39:57.487,N
+1767,17,craft_materials_info,강화 재료 정보,string,"{ ""cnt_spid"": 5, -- 강화에 사용된 선수 수 ""detail_info"":  [ { ""grade"": 2, -- 강화에 사용된 선수 등급 ""price"": 454000, -- 강화에 사용된 선수 가치 ""spid"": 206204525 ? 강화에 사용된 선수 ID }, { ""grade"": 3, ""price"": 1280000, ""spid"": 201000001 }, { ""grade"": 3, ""price"": 1280000, ""spid"": 201000001 }, { ""grade"": 3, ""price"": 1280000, ""spid"": 201000001 }, { ""grade"": 3, ""price"": 756000, ""spid"": 202242887 } ], ""sum_price"": 5050000 -- 강화에 사용된 선수 가치 합 }",2021-01-28 08:39:57.487,N
+1767,18,rank,랭킹,integer,랭킹,2021-01-28 08:39:57.487,N
+1767,19,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2021-01-28 08:39:57.487,N
+1766,0,sdate,집계일,timestamp,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-01-28 08:56:56.953,N
+1766,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-01-28 08:56:56.953,N
+1766,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-28 08:56:56.953,N
+1766,3,nexonsn,NexonSN,integer,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-01-28 08:56:56.953,N
+1766,4,npsn,NPSN,integer,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-28 08:56:56.953,N
+1766,5,accounttype,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 08:56:56.953,N
+1766,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 08:56:56.953,N
+1766,7,serviceid,서비스아이디,integer,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-01-28 08:56:56.953,N
+1766,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-01-28 08:56:56.953,N
+1766,9,tradetype,판매 타입,string,"판매데이터 : sell , 구매데이터 : buy",2021-01-28 08:56:56.953,N
+1766,10,registrationdate,거래 시간,timestamp,"sell : 판매등록시간 , buy : 구매시간",2021-01-28 08:56:56.953,N
+1766,11,settlementdate,판매 시간,timestamp,"sell : 판매시간, buy : null",2021-01-28 08:56:56.953,N
+1766,12,spid,선수 식별자,integer,구매/판매한 선수 id,2021-01-28 08:56:56.953,N
+1805,7,switch2login,콘텐츠 조회 후 로그인전환 여부,string,유저가 해당 콘텐츠(게시물) 조회 후 로그인 이력이 남으면 want2login의 값을 가집니다 (want2login : 해당 콘텐츠를 보고 로그인으로 이어짐을 의미),2021-07-29 02:49:02.957,N
+1805,8,viewdatetime,콘텐츠 조회 시간,timestamp,콘텐츠 조회 시간,2021-07-29 02:49:02.957,N
+1805,9,contents_title,콘텐츠 제목,string,콘텐츠 제목 (원천 데이터의 콘텐츠 제목 수집 이전 기간에는 null로 표시됨),2021-07-29 02:49:02.957,N
+1805,10,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-07-29 02:49:02.957,N
+1677,10,act_category,로그 구분,string,"로그 구분값. ""게임접속"", ""게임 접속 종료"", ""NCS 1:1 문의"", ""웹 로그인"", ""넥슨 캐시 상점 로그"", ""넥슨 공식홈페이지 게시글 작성"", ""인게임 특이사항"", ""PRIME 선정"" 등의 값으로 이루어진 로그의 대분류",2021-08-26 04:38:15.900,N
+1677,11,log_desc,로그 상세정보,string,로그 원천데이터를 해석가능한 문장으로의 변형한 값,2021-08-26 04:38:15.900,N
+1754,17,player,선수 정보,string,"-- 1경기당 경기종료시점의 18명 선수의 정보가 남습니다. [ { ""spgrade"": 1, -- 선수 등급 ""spid"": 300179696, -- 선수ID ""spposition"": 28, -- 선수 포지션 ""status"": { ""assist"": 0, -- 어시스트 수 ""block"": 0, -- 블락 수 ""dribble"": 0, -- 드리블 수 ""effshoot"": 0, -- 유효슛 수 ""goal"": 0, -- 골 수 ""pass_success"": 0, -- 패스 성공 수 ""pass_try"": 0, -- 패스 시도 수 ""shoot"": 0, -- 슛 수 ""sprating"": 0, -- 선수평점 ""tackle"": 0 -- 태클 수 } }, { ""spgrade"": 4, ""spid"": 201001109, ""spposition"": 6, ""status"": { ""assist"": 0, ""block"": 0, ""dribble"": 0, ""effshoot"": 0, ""goal"": 0, ""pass_success"": 5, ""pass_try"": 5, ""shoot"": 0, ""sprating"": 5.1, ""tackle"": 1 } }, ... ]",2021-09-29 04:49:04.677,N
+1754,18,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2021-09-29 04:49:04.677,N
+1756,17,craft_materials_info,강화 재료 정보,string,"{ ""cnt_spid"": 5, -- 강화에 사용된 선수 수 ""detail_info"":  [ { ""grade"": 2, -- 강화에 사용된 선수 등급 ""price"": 454000, -- 강화에 사용된 선수 가치 ""spid"": 206204525 ? 강화에 사용된 선수 ID }, { ""grade"": 3, ""price"": 1280000, ""spid"": 201000001 }, { ""grade"": 3, ""price"": 1280000, ""spid"": 201000001 }, { ""grade"": 3, ""price"": 1280000, ""spid"": 201000001 }, { ""grade"": 3, ""price"": 756000, ""spid"": 202242887 } ], ""sum_price"": 5050000 -- 강화에 사용된 선수 가치 합 }",2021-09-29 04:52:51.360,N
+1756,18,hh,적재 시작 시간,integer,적재 시작 시간,2021-09-29 04:52:51.360,N
+1756,19,loadingtime,데이터 적재 일시,timestamp,데이터 적재 일시,2021-09-29 04:52:51.360,N
+1887,13,guildid,길드ID,string,길드ID,2021-10-19 01:13:46.290,N
+1887,14,clientip,접속IP,string,접속IP,2021-10-19 01:13:46.290,N
+1887,15,active,게임 접속 유무,string,"Y: 접속중, N: 접속종료",2021-10-19 01:13:46.290,N
+1887,16,sijum,시점명,string,데이터를 가져온 시점명,2021-10-19 01:13:46.290,N
+1752,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-03-02 07:14:56.917,N
+1752,1,timezone,집계 시간대,varchar(100),KST (Korea Standard Time),2021-03-02 07:14:56.917,N
+1561,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-02-09 07:45:57.583,N
+1561,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-02-09 07:45:57.583,N
+1561,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-02-09 07:45:57.583,N
+1561,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-02-09 07:45:57.583,N
+1561,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-02-09 07:45:57.583,N
+1561,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-02-09 07:45:57.583,N
+1561,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-02-09 07:45:57.583,N
+1561,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-02-09 07:45:57.583,N
+1561,8,worldid,게임 서버,string,게임 서버 구분자,2021-02-09 07:45:57.583,N
+1561,9,totalamount,총 누적 과금액,long,총 누적 과금액,2021-02-09 07:45:57.583,N
+1561,10,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-02-09 07:45:57.583,N
+1749,0,sdate,집계일,timestamp,집계 일자 (yyyy-MM-dd hh:mm:ss)),2021-02-09 07:41:38.187,N
+1749,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-02-09 07:41:38.187,N
+1749,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-02-09 07:41:38.187,N
+1749,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-02-09 07:41:38.187,N
+1749,4,npsn,NPSN,long,TOY에서 발급한 모바일 플랫폼 계정 식별자,2021-02-09 07:41:38.187,N
+1749,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-02-09 07:41:38.187,N
+1749,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-02-09 07:41:38.187,N
+1749,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-02-09 07:41:38.187,N
+1749,8,worldid,게임 서버,string,게임 서버 구분자,2021-02-09 07:41:38.187,N
+1749,9,market_day,거래소 입장 일수,int64,유저가 최근 2주간 거래소에 입장한 일수 (최소 1일 ~ 최대 14일),2021-02-09 07:41:38.187,N
+1749,10,market_cnt,거래소 일 평균 입장 횟수,float64,유저가 최근 2주간 거래소에서 입장한 일 평균 횟수 (입장한 일자들의 정보의 평균으로 산출 됩니다. ex) 14일 중 3일 거래소를 15번 이용 -> 거래소 일 평균 입장 횟수 = 15/3 = 5회),2021-02-09 07:41:38.187,N
+1749,11,market_dt,거래소 평균 체류 시간 (초단위),float64,"유저의 최근 2주간 거래소에 입장 후, 퇴장까지 머무른 평균 시간 (초단위)",2021-02-09 07:41:38.187,N
+1749,12,tag,거래소 이용 성향,string,유저의 거래소 사용 성향 (visitor - 방문 위주 / seller - 판매 위주 / buyer - 구매 위주 / searcher - 검색 위주),2021-02-09 07:41:38.187,N
+1749,13,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-02-09 07:41:38.187,N
+1688,7,serviceid,서비스아이디,integer,랩스에서 발급하고 관리하는 게임 식별자.,2021-09-27 04:29:21.437,N
+1688,8,worldid,게임 서버,string,게임 서버 구분자. PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력,2021-09-27 04:29:21.437,N
+1688,9,logcount,일별 채팅로그 수,integer,일별 채팅로그 수 (NXLog 의 Char_Chat 시점의 nexonsn 별 로그발생 수의 합산값 입니다),2021-09-27 04:29:21.437,N
+1688,10,loadingtime,데이터 적재 일시,timestamp,DB에 집계된 시간,2021-09-27 04:29:21.437,N
+1666,10,neople_game_m_id,네오플 게임 고유키,bigint,네오플게임 던전앤파이터 / 사이퍼즈의 게임 고유키 클래스,2021-09-30 11:05:20.867,N
+1666,11,connecttype,접속 타입,string,접속타입(Nexon/ Neople/ NeopleCyphers/ Tooniland/ Daum/ Naver),2021-09-30 11:05:20.867,N
+1666,12,identitysn,신상키,bigint,"본인 인증에서 신상을 구분하기 위한 키(주민번호 같은 존재), 구분이 어려울 땐 -1로 입력",2021-09-30 11:05:20.867,N
+1666,13,gendertype,성별,string,"넥슨 회원 가입 시 이용자가 입력한 성별, 구분이 불가능할 경우 !notapplicable@로 입력",2021-09-30 11:05:20.867,N
+1771,11,market_dt,거래소 평균 체류 시간 (초단위),float64,"유저의 최근 2주간 거래소에 입장 후, 퇴장까지 머무른 평균 시간 (초단위)",2021-02-26 04:54:05.743,N
+1771,12,tag,거래소 이용 성향,string,유저의 거래소 사용 성향 (visitor - 방문 위주 / seller - 판매 위주 / buyer - 구매 위주 / searcher - 검색 위주),2021-02-26 04:54:05.743,N
+1771,13,pattern_prob,거래소 이용 성향별 추정 확률,string,유저의 거래소 사용 성향별 추정된 확률,2021-02-26 04:54:05.743,N
+1771,14,session_info,거래소 사용 세션 정보,string,"session_cnt : 최근 2주 동안 세션별 빈도, session_dt : 세션 시퀀스별 평균 체류 시간 (초),  session : 세션 시퀀스 (e : enter, l : leave, s : sell, b : buy, sr : search)",2021-02-26 04:54:05.743,N
+1771,15,loadingtime,데이터 적재 일시,datetime,DB에 집계된 시간,2021-02-26 04:54:05.743,N
+1923,0,sdate,집계일,date,집계 일자 (yyyy-MM-dd),2021-12-14 07:12:19.757,N
+1923,1,timezone,집계 시간대,string,"집계 시간대 (KST, UTC 등)",2021-12-14 07:12:19.757,N
+1923,2,accountno,게임 계정,string,게임에서 발행된 계정 ID,2021-12-14 07:12:19.757,N
+1923,3,nexonsn,NexonSN,long,넥슨 계정 식별자,2021-12-14 07:12:19.757,N
+1776,26,rank_match_party,솔로파티 포인트,float,솔로파티 포인트,2021-02-10 01:50:04.637,N
+1776,27,loadingtime,데이터 적재 일시,datetime,데이터 적재 일시,2021-02-10 01:50:04.637,N
+1666,14,yearage,연나이,int,"birthday 를 기준으로 계산한 연나이, 계산이 불가능할 경우 -1로 입력",2021-09-30 11:05:20.867,N
+1666,15,age,만나이,int,"birthday 를 기준으로 계산한 연나이, 계산이 불가능할 경우 -1로 입력",2021-09-30 11:05:20.867,N
+1666,16,firstconnectdatetime,당일 첫 접속 일시,timestamp,당일 첫 접속 일시,2021-09-30 11:05:20.867,N
+1738,8,worldid,게임 서버,string,게임 서버 구분자,2021-10-20 08:48:55.007,N
+1172,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-09-02 07:31:52.037,N
+1172,1,timezone,집계 시간대,varchar,KST (Korea Standard Time),2021-09-02 07:31:52.037,N
+1738,9,charlevel,캐릭터 레벨,int,마지막 접속 시 기록된 캐릭터 레벨 정보,2021-10-20 08:48:55.007,N
+1738,10,total_playtime,플레이 시간,int,최근 14일 간 플레이 한 시간 (초 단위),2021-10-20 08:48:55.007,N
+1920,5,serviceareaid,게임 계정 구분자,string,"NXLog의 accounttype, 일부게임 regionid 처럼 게임 계정의 유일성을 보장하기 위해 필요한 추가 구분자",2021-12-14 01:46:39.873,N
+1920,6,characterid,게임 캐릭터 ID,string,게임 캐릭터 ID,2021-12-14 01:46:39.873,N
+1920,7,serviceid,서비스아이디,long,랩스에서 발급하고 관리하는 게임 식별자,2021-12-14 01:46:39.873,N
+1920,8,worldid,게임 서버,string,게임 서버 구분자,2021-12-14 01:46:39.873,N
+1920,9,userlevel,최고 레벨,long,집계 기간 중 최고 레벨,2021-12-14 01:46:39.873,N
+1920,10,max_cp,최고 덱 전투력,double,집계 기간 중 최고 덱 전투력,2021-12-14 01:46:39.873,N
+1920,11,playtime,플레이 타임,long,집계 기간 중 플레이 타임 초 단위,2021-12-14 01:46:39.873,N
+1920,12,churn,이탈 여부,integer,"집계 기간 마지막일 기준 7일 이내 접속 여부 (접속:1, 미접속:0)",2021-12-14 01:46:39.873,N
+1920,13,acc_day_cnt,접속 일 수,long,집계 기간 중 총 접속 일 수,2021-12-14 01:46:39.873,N
+1172,2,accountno,AccountNo,varchar,게임에서 발행한 계정ID,2021-10-20 08:26:27.993,N
+1172,3,nexonsn,NexonSN,bigint,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-09-02 07:31:52.037,N
+1172,4,npsn,NPSN,bigint,TOY에서 발행된 계정ID,2021-10-20 08:26:10.387,N
+1172,5,serviceareaid,게임계정 구분자,nvarchar,accountno로 이용자를 찾기 위한 보조 식별자,2021-10-20 08:26:34.037,N
+1172,6,characterid,캐릭터 ID,nvarchar,캐릭터를 식별하는 유니크한(UID) 값,2021-10-20 08:26:38.837,N
+1172,7,serviceid,서비스아이디,bigint,게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행),2021-10-20 08:26:42.693,N
+1172,8,worldid,게임 서버 정보,nvarchar,characterid로 캐릭터를 찾기 위한 보조 식별자,2021-10-20 08:26:46.740,N
+1172,9,dw_game_code,IDC 게임 코드,int,idc DW에서 발급/ 관리하는 게임코드 게임 정보 참조: nxdim.dbo.d_mobile_serviceid_dwgamecode_info,2021-09-02 07:31:52.037,N
+1172,10,toy_serviceid,TOY 서비스아이디,bigint,toy seriviceid 게임 정보 참조: nxdim.dbo.d_mobile_serviceid_dwgamecode_info,2021-09-02 07:31:52.037,N
+1172,11,usermasterkey,유저마스터키,string,"모바일 게임에서 TPA(Third-Party Authentication) 계정으로 가입 시 동일 계정 여부를 식별하기 위한 키, 유저마스터 키가 없는 경우 -1로 입력, ""TPA 구분자 : 식별키"" 조합키 형태로 저장되며 TPA 구분자를 파싱하여 유저마스터키 생성 출처를 알 수 있음, 자세한 내용은 https://confluence.nexon.com/x/VkrADg 참조",2021-09-02 07:31:52.037,N
+1172,12,dw_country_code,idc 기준 국가 코드,varchar,IDC DW 기준 국가 코드,2021-09-02 07:31:52.037,N
+1408,0,sdate,집계일,date,한국 표준 시간 (KST:Korea Standard Time) 기준 집계 일자,2021-03-03 08:53:42.717,N
+1408,1,timezone,집계 시간대,string,KST (Korea Standard Time),2021-03-03 08:53:42.717,N
+1408,2,accountno,AccountNo,string,"게임에서 발행한 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-03-03 08:53:42.717,N
+1408,3,nexonsn,NexonSN,long,nexon.com 계정 고유 번호(다른 명칭 으로 oid/uid/useroid/membersn 이라고도 함),2021-03-03 08:53:42.717,N
+1408,4,npsn,NPSN,long,"TOY에서 발행된 계정ID, PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-03-03 08:53:42.717,N
+1408,5,serviceareaid,게임계정 구분자,string,"accountno로 이용자를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-03-03 08:53:42.717,N
+1408,6,characterid,캐릭터 ID,string,"캐릭터를 식별하는 유니크한(UID) 값, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-03-03 08:53:42.717,N
+1408,7,serviceid,서비스아이디,long,"게임별로 고정된 서비스 ID(인텔리전스 랩스에서 발급 진행), PC회원(nexonsn) 기준 집계여서 -1로 입력",2021-03-03 08:53:42.717,N
+1408,8,worldid,게임 서버 정보,string,"characterid로 캐릭터를 찾기 위한 보조 식별자, PC회원(nexonsn) 기준 집계여서 !notapplicable@로 입력",2021-03-03 08:53:42.717,N
+1408,9,id,캐릭터 식별자,string,캐릭터 식별자,2021-03-03 08:53:42.717,N
+1408,10,name,캐릭터 이름,string,캐릭터 이름,2021-03-03 08:53:42.717,N
+1408,11,level,레벨,long,캐릭터 레벨,2021-03-03 08:53:42.717,N
+1408,12,exp,경험치,long,캐릭터 경험치,2021-03-03 08:53:42.720,N
