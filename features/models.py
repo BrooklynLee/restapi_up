@@ -69,4 +69,5 @@ class Feature(CoreModel):
     # file_number.short_description = "File Count"
 
     class Meta:
+        # ordering = ["pk"]
         ordering = ["-pk"]
